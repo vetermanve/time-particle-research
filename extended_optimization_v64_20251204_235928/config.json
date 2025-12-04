@@ -1,0 +1,167 @@
+{
+  "target_particles": {
+    "proton": {
+      "mass": 938.272,
+      "charge": 1.0,
+      "composition": [
+        "u",
+        "u",
+        "d"
+      ]
+    },
+    "neutron": {
+      "mass": 939.565,
+      "charge": 0.0,
+      "composition": [
+        "u",
+        "d",
+        "d"
+      ]
+    },
+    "pi+": {
+      "mass": 139.57,
+      "charge": 1.0,
+      "composition": [
+        "u",
+        "anti_d"
+      ]
+    },
+    "pi0": {
+      "mass": 134.9768,
+      "charge": 0.0,
+      "composition": [
+        "u",
+        "anti_u"
+      ]
+    },
+    "pi-": {
+      "mass": 139.57,
+      "charge": -1.0,
+      "composition": [
+        "d",
+        "anti_u"
+      ]
+    },
+    "k+": {
+      "mass": 493.677,
+      "charge": 1.0,
+      "composition": [
+        "u",
+        "anti_s"
+      ]
+    },
+    "k0": {
+      "mass": 497.611,
+      "charge": 0.0,
+      "composition": [
+        "d",
+        "anti_s"
+      ]
+    },
+    "k-": {
+      "mass": 493.677,
+      "charge": -1.0,
+      "composition": [
+        "s",
+        "anti_u"
+      ]
+    },
+    "k0_bar": {
+      "mass": 497.611,
+      "charge": 0.0,
+      "composition": [
+        "s",
+        "anti_d"
+      ]
+    },
+    "lambda0": {
+      "mass": 1115.683,
+      "charge": 0.0,
+      "composition": [
+        "u",
+        "d",
+        "s"
+      ]
+    }
+  },
+  "initial_params": {
+    "base_mass_u": 2.203806,
+    "base_mass_d": 4.58302,
+    "base_mass_s": 25.0,
+    "freq_u": 0.956359,
+    "freq_d": 0.868115,
+    "freq_s": 0.8,
+    "amp_u": 1.032476,
+    "amp_d": 0.877773,
+    "amp_s": 0.85,
+    "coupling_proton": 1.613565,
+    "coupling_neutron": 0.285395,
+    "coupling_lambda0": 1.5,
+    "coupling_meson_light": 4.273121,
+    "coupling_meson_strange": 5.0,
+    "phase_shift": 3.173848
+  },
+  "param_ranges": {
+    "base_mass_u": [
+      1.76,
+      2.65
+    ],
+    "base_mass_d": [
+      3.67,
+      5.5
+    ],
+    "base_mass_s": [
+      15.0,
+      35.0
+    ],
+    "freq_u": [
+      0.765,
+      1.148
+    ],
+    "freq_d": [
+      0.694,
+      1.042
+    ],
+    "freq_s": [
+      0.6,
+      1.0
+    ],
+    "amp_u": [
+      0.826,
+      1.239
+    ],
+    "amp_d": [
+      0.702,
+      1.053
+    ],
+    "amp_s": [
+      0.6,
+      1.0
+    ],
+    "coupling_proton": [
+      1.29,
+      1.936
+    ],
+    "coupling_neutron": [
+      0.228,
+      0.342
+    ],
+    "coupling_lambda0": [
+      1.0,
+      2.5
+    ],
+    "coupling_meson_light": [
+      3.418,
+      5.128
+    ],
+    "coupling_meson_strange": [
+      4.0,
+      6.0
+    ],
+    "phase_shift": [
+      2.539,
+      3.809
+    ]
+  },
+  "timestamp": "2025-12-04T23:59:28.744939"
+}

@@ -1,0 +1,77 @@
+{
+  "target_proton": {
+    "mass": 938.272,
+    "charge": 1.0,
+    "spin": 0.5,
+    "composition": [
+      "u",
+      "u",
+      "d"
+    ]
+  },
+  "target_neutron": {
+    "mass": 939.565,
+    "charge": 0.0,
+    "spin": 0.5,
+    "composition": [
+      "u",
+      "d",
+      "d"
+    ]
+  },
+  "type_properties": {
+    "u": {
+      "charge": 0.6666666666666666,
+      "base_mass": 4.07
+    },
+    "d": {
+      "charge": -0.3333333333333333,
+      "base_mass": 4.57
+    }
+  },
+  "param_ranges": {
+    "frequency": {
+      "u": {
+        "min": 0.9,
+        "max": 1.1,
+        "step": 0.002
+      },
+      "d": {
+        "min": 0.9,
+        "max": 1.1,
+        "step": 0.002
+      }
+    },
+    "amplitude": {
+      "u": {
+        "min": 0.95,
+        "max": 1.05,
+        "step": 0.002
+      },
+      "d": {
+        "min": 0.9,
+        "max": 1.0,
+        "step": 0.002
+      }
+    },
+    "phase": {
+      "min": 0,
+      "max": 6.283185307179586,
+      "step": 0.1308996938995747
+    },
+    "coupling": {
+      "min": 1.0,
+      "max": 2.0,
+      "step": 0.01
+    }
+  },
+  "search": {
+    "max_iterations": 500000,
+    "save_interval": 25000,
+    "min_error": 0.005,
+    "max_solutions": 100,
+    "scale_factor": 100.0,
+    "temperature": 0.15,
+    "cooling_rate": 0.99999
+  }
+}

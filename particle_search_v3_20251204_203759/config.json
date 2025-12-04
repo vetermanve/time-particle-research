@@ -1,0 +1,259 @@
+{
+  "target_particles": {
+    "proton": {
+      "mass": 938.272,
+      "charge": 1.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "u",
+        "d"
+      ]
+    },
+    "neutron": {
+      "mass": 939.565,
+      "charge": 0.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "d",
+        "d"
+      ]
+    },
+    "lambda0": {
+      "mass": 1115.68,
+      "charge": 0.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "d",
+        "s"
+      ]
+    },
+    "sigma+": {
+      "mass": 1189.37,
+      "charge": 1.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "u",
+        "s"
+      ]
+    },
+    "sigma0": {
+      "mass": 1192.64,
+      "charge": 0.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "d",
+        "s"
+      ]
+    },
+    "sigma-": {
+      "mass": 1197.45,
+      "charge": -1.0,
+      "spin": 0.5,
+      "composition": [
+        "d",
+        "d",
+        "s"
+      ]
+    },
+    "xi0": {
+      "mass": 1314.86,
+      "charge": 0.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "s",
+        "s"
+      ]
+    },
+    "xi-": {
+      "mass": 1321.71,
+      "charge": -1.0,
+      "spin": 0.5,
+      "composition": [
+        "d",
+        "s",
+        "s"
+      ]
+    },
+    "pi+": {
+      "mass": 139.57,
+      "charge": 1.0,
+      "spin": 0,
+      "composition": [
+        "u",
+        "anti_d"
+      ]
+    },
+    "pi-": {
+      "mass": 139.57,
+      "charge": -1.0,
+      "spin": 0,
+      "composition": [
+        "d",
+        "anti_u"
+      ]
+    },
+    "pi0": {
+      "mass": 134.98,
+      "charge": 0.0,
+      "spin": 0,
+      "composition": [
+        "u",
+        "anti_u"
+      ]
+    },
+    "k+": {
+      "mass": 493.68,
+      "charge": 1.0,
+      "spin": 0,
+      "composition": [
+        "u",
+        "anti_s"
+      ]
+    },
+    "k-": {
+      "mass": 493.68,
+      "charge": -1.0,
+      "spin": 0,
+      "composition": [
+        "s",
+        "anti_u"
+      ]
+    },
+    "k0": {
+      "mass": 497.61,
+      "charge": 0.0,
+      "spin": 0,
+      "composition": [
+        "d",
+        "anti_s"
+      ]
+    },
+    "anti_k0": {
+      "mass": 497.61,
+      "charge": 0.0,
+      "spin": 0,
+      "composition": [
+        "s",
+        "anti_d"
+      ]
+    },
+    "eta": {
+      "mass": 547.86,
+      "charge": 0.0,
+      "spin": 0,
+      "composition": [
+        "u",
+        "anti_u"
+      ]
+    },
+    "eta_prime": {
+      "mass": 957.78,
+      "charge": 0.0,
+      "spin": 0,
+      "composition": [
+        "s",
+        "anti_s"
+      ]
+    }
+  },
+  "type_properties": {
+    "u": {
+      "charge": 0.6666666666666666,
+      "base_mass": 4.07
+    },
+    "d": {
+      "charge": -0.3333333333333333,
+      "base_mass": 4.57
+    },
+    "s": {
+      "charge": -0.3333333333333333,
+      "base_mass": 94.0
+    },
+    "anti_u": {
+      "charge": -0.6666666666666666,
+      "base_mass": 4.07
+    },
+    "anti_d": {
+      "charge": 0.3333333333333333,
+      "base_mass": 4.57
+    },
+    "anti_s": {
+      "charge": 0.3333333333333333,
+      "base_mass": 94.0
+    }
+  },
+  "param_ranges": {
+    "frequency": {
+      "u": {
+        "min": 0.95,
+        "max": 1.05,
+        "step": 0.001
+      },
+      "d": {
+        "min": 0.92,
+        "max": 1.02,
+        "step": 0.001
+      },
+      "s": {
+        "min": 0.85,
+        "max": 1.05,
+        "step": 0.001
+      }
+    },
+    "amplitude": {
+      "u": {
+        "min": 0.98,
+        "max": 1.02,
+        "step": 0.001
+      },
+      "d": {
+        "min": 0.9,
+        "max": 0.95,
+        "step": 0.001
+      },
+      "s": {
+        "min": 0.9,
+        "max": 1.1,
+        "step": 0.001
+      }
+    },
+    "phase": {
+      "min": 0,
+      "max": 6.283185307179586,
+      "step": 0.09817477042468103
+    },
+    "coupling_baryon": {
+      "min": 1.5,
+      "max": 2.5,
+      "step": 0.01
+    },
+    "coupling_meson": {
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.01
+    }
+  },
+  "search": {
+    "max_iterations": 200000,
+    "save_interval": 25000,
+    "min_error": 0.05,
+    "max_solutions": 100,
+    "scale_factor": 100.0,
+    "temperature": 0.1,
+    "cooling_rate": 0.999995,
+    "use_focus_search": true,
+    "focus_particles": [
+      "proton",
+      "neutron",
+      "lambda0",
+      "pi+",
+      "k+"
+    ]
+  }
+}

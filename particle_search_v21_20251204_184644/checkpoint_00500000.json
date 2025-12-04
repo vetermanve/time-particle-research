@@ -1,0 +1,4249 @@
+{
+  "iteration": 500000,
+  "solutions": [
+    {
+      "iteration": 499084,
+      "parameters": {
+        "freq_u": 0.9881838378080932,
+        "amp_u": 0.983123217041057,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.141422384062947
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4582227386024827,
+      "details": {
+        "proton_mass": 1009.8447057786794,
+        "neutron_mass": 1011.1382536819992,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07628140430352753,
+          "mass_neutron": 0.07617701136376852,
+          "mass_diff": 0.000423745800297277,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012369194357062215,
+      "timestamp": 1764863406.452611
+    },
+    {
+      "iteration": 494735,
+      "parameters": {
+        "freq_u": 0.9879369348019751,
+        "amp_u": 0.9835174534735122,
+        "freq_d": 0.92,
+        "amp_d": 0.9001018714879396,
+        "coupling": 2.143693836061275
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4585036095491095,
+      "details": {
+        "proton_mass": 1009.7987793551717,
+        "neutron_mass": 1011.09269781481,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0762324564253987,
+          "mass_neutron": 0.0761285252375407,
+          "mass_diff": 0.000710332280145659,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012641108844011057,
+      "timestamp": 1764863404.933635
+    },
+    {
+      "iteration": 488685,
+      "parameters": {
+        "freq_u": 0.9875975569585755,
+        "amp_u": 0.9837161961930088,
+        "freq_d": 0.92,
+        "amp_d": 0.9000082705384266,
+        "coupling": 2.141458608760362
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.45861956268288245,
+      "details": {
+        "proton_mass": 1009.9046097129282,
+        "neutron_mass": 1011.1981666601712,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07634524925920001,
+          "mass_neutron": 0.07624077808365692,
+          "mass_diff": 0.00043074032715581637,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013029345836941096,
+      "timestamp": 1764863402.810934
+    },
+    {
+      "iteration": 499103,
+      "parameters": {
+        "freq_u": 0.9882357534212474,
+        "amp_u": 0.9830618884253678,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.141025220189616
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.45991605939579805,
+      "details": {
+        "proton_mass": 1009.8737222391145,
+        "neutron_mass": 1011.1682429889443,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07631232972860157,
+          "mass_neutron": 0.07620892965249258,
+          "mass_diff": 0.0011761406262578184,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012368019336475092,
+      "timestamp": 1764863406.4594219
+    },
+    {
+      "iteration": 483314,
+      "parameters": {
+        "freq_u": 0.9879476527746108,
+        "amp_u": 0.9834755706708276,
+        "freq_d": 0.9201488372475065,
+        "amp_d": 0.9,
+        "coupling": 2.1394316815376144
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46002978329713595,
+      "details": {
+        "proton_mass": 1010.2540390428873,
+        "neutron_mass": 1011.5470651782923,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07671766720405938,
+          "mass_neutron": 0.07661211856368878,
+          "mass_diff": 2.021299694571445e-05,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01338399048332095,
+      "timestamp": 1764863400.900222
+    },
+    {
+      "iteration": 486662,
+      "parameters": {
+        "freq_u": 0.9878643502505867,
+        "amp_u": 0.9834187090169346,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1399893153169582
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46030540155940375,
+      "details": {
+        "proton_mass": 1010.0050079472621,
+        "neutron_mass": 1011.2967721849201,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0764522525954756,
+          "mass_neutron": 0.0763457261444605,
+          "mass_diff": 0.0009557326697977325,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013161806793144784,
+      "timestamp": 1764863402.0859
+    },
+    {
+      "iteration": 476702,
+      "parameters": {
+        "freq_u": 0.9879780251991327,
+        "amp_u": 0.9832537916985097,
+        "freq_d": 0.9200225558194479,
+        "amp_d": 0.9,
+        "coupling": 2.1361153157716086
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.460753905224847,
+      "details": {
+        "proton_mass": 1010.3711034076431,
+        "neutron_mass": 1011.6640926853029,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07684243311922666,
+          "mass_neutron": 0.0767366735513805,
+          "mass_diff": 8.292606512789266e-06,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013833861731347132,
+      "timestamp": 1764863398.585322
+    },
+    {
+      "iteration": 473636,
+      "parameters": {
+        "freq_u": 0.9880251962671246,
+        "amp_u": 0.9831672389601795,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1352305382211143
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46106965262253513,
+      "details": {
+        "proton_mass": 1010.414545029865,
+        "neutron_mass": 1011.7075095984137,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07688873272341602,
+          "mass_neutron": 0.07678288314104256,
+          "mass_diff": 2.7402514579691984e-05,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014047569248822667,
+      "timestamp": 1764863397.4887319
+    },
+    {
+      "iteration": 473148,
+      "parameters": {
+        "freq_u": 0.9884975232710076,
+        "amp_u": 0.9828269964704747,
+        "freq_d": 0.920098773544609,
+        "amp_d": 0.9,
+        "coupling": 2.1368461470861866
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46200904292056477,
+      "details": {
+        "proton_mass": 1010.3648965374364,
+        "neutron_mass": 1011.6587425804754,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07683581790508118,
+          "mass_neutron": 0.07673097931540164,
+          "mass_diff": 0.0006543256295581528,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01408188725452571,
+      "timestamp": 1764863397.3099709
+    },
+    {
+      "iteration": 467612,
+      "parameters": {
+        "freq_u": 0.9884715472049499,
+        "amp_u": 0.9826971550952821,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.133795186402585
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46201274698269246,
+      "details": {
+        "proton_mass": 1010.5040602102247,
+        "neutron_mass": 1011.7967843906732,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07698413702020802,
+          "mass_neutron": 0.07687790029500159,
+          "mass_diff": 0.0002133175185317925,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014477119663606637,
+      "timestamp": 1764863395.312381
+    },
+    {
+      "iteration": 492662,
+      "parameters": {
+        "freq_u": 0.9879351466668778,
+        "amp_u": 0.9833783192451567,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.141378827418248
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4622597288450364,
+      "details": {
+        "proton_mass": 1009.8778588375924,
+        "neutron_mass": 1011.1678306049524,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07631673846985984,
+          "mass_neutron": 0.07620849074300594,
+          "mass_diff": 0.00234202060321954,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012772815657868765,
+      "timestamp": 1764863404.2091122
+    },
+    {
+      "iteration": 497351,
+      "parameters": {
+        "freq_u": 0.9888638239415983,
+        "amp_u": 0.9831849298684359,
+        "freq_d": 0.9203357360523762,
+        "amp_d": 0.9003156575919776,
+        "coupling": 2.1447506455116256
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.462318804952037,
+      "details": {
+        "proton_mass": 1010.3792795548545,
+        "neutron_mass": 1011.673266147624,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07685114716719083,
+          "mass_neutron": 0.07674643707207474,
+          "mass_diff": 0.0007630261171201481,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01247683939388178,
+      "timestamp": 1764863405.843297
+    },
+    {
+      "iteration": 493087,
+      "parameters": {
+        "freq_u": 0.9870996321839641,
+        "amp_u": 0.9843812765129686,
+        "freq_d": 0.920183204856164,
+        "amp_d": 0.9,
+        "coupling": 2.1409963443046474
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4623546226889345,
+      "details": {
+        "proton_mass": 1010.2343450612173,
+        "neutron_mass": 1011.5289523042327,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0766966775745383,
+          "mass_neutron": 0.07659284062755917,
+          "mass_diff": 0.0012430340413210606,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012745702175090187,
+      "timestamp": 1764863404.3567412
+    },
+    {
+      "iteration": 471952,
+      "parameters": {
+        "freq_u": 0.9886353520286044,
+        "amp_u": 0.982529929286306,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1336705348116474
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4624995883391347,
+      "details": {
+        "proton_mass": 1010.4989519505124,
+        "neutron_mass": 1011.7925617887925,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07697869269307016,
+          "mass_neutron": 0.07687340608557407,
+          "mass_diff": 0.0004716460016010088,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01416634944170301,
+      "timestamp": 1764863396.8717408
+    },
+    {
+      "iteration": 481775,
+      "parameters": {
+        "freq_u": 0.9878803901633961,
+        "amp_u": 0.9833142934171869,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1352564379460603
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46275855440654373,
+      "details": {
+        "proton_mass": 1010.4271403435,
+        "neutron_mass": 1011.7190629217746,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07690215667045373,
+          "mass_neutron": 0.07679517960095845,
+          "mass_diff": 0.0008332727961535729,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013487377821184567,
+      "timestamp": 1764863400.361124
+    },
+    {
+      "iteration": 467714,
+      "parameters": {
+        "freq_u": 0.98829801668398,
+        "amp_u": 0.9828572613958103,
+        "freq_d": 0.92,
+        "amp_d": 0.9000083472936338,
+        "coupling": 2.1327407750823215
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46297824991681436,
+      "details": {
+        "proton_mass": 1010.6236852912414,
+        "neutron_mass": 1011.9170896911023,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0771116321186621,
+          "mass_neutron": 0.07700594391138693,
+          "mass_diff": 0.0003127609133336642,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014469738196558555,
+      "timestamp": 1764863395.349181
+    },
+    {
+      "iteration": 478994,
+      "parameters": {
+        "freq_u": 0.9868200169445929,
+        "amp_u": 0.9844447824174444,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1390598180575027
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46318035377234257,
+      "details": {
+        "proton_mass": 1010.1832037301192,
+        "neutron_mass": 1011.4738431786392,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07664217170513364,
+          "mass_neutron": 0.07653418675518897,
+          "mass_diff": 0.0018256391956873747,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013676230235464087,
+      "timestamp": 1764863399.402255
+    },
+    {
+      "iteration": 492679,
+      "parameters": {
+        "freq_u": 0.988463700523875,
+        "amp_u": 0.9834068526424008,
+        "freq_d": 0.92,
+        "amp_d": 0.9005541769086468,
+        "coupling": 2.1402020527039936
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4632187393965153,
+      "details": {
+        "proton_mass": 1010.6724883703346,
+        "neutron_mass": 1011.9651285391059,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07716364590474246,
+          "mass_neutron": 0.077057072729514,
+          "mass_diff": 0.0002782917468729707,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012771730011964326,
+      "timestamp": 1764863404.215182
+    },
+    {
+      "iteration": 470542,
+      "parameters": {
+        "freq_u": 0.988324238794569,
+        "amp_u": 0.9828158337804725,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.132398747737854
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4632266003700199,
+      "details": {
+        "proton_mass": 1010.6406529536432,
+        "neutron_mass": 1011.9341476263579,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0771297160670287,
+          "mass_neutron": 0.07702409905260185,
+          "mass_diff": 0.00038257750556410376,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014266575336989693,
+      "timestamp": 1764863396.3677812
+    },
+    {
+      "iteration": 469010,
+      "parameters": {
+        "freq_u": 0.9881947933488159,
+        "amp_u": 0.983172796910552,
+        "freq_d": 0.9201755876033167,
+        "amp_d": 0.9,
+        "coupling": 2.1349427615342074
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46323413717659145,
+      "details": {
+        "proton_mass": 1010.6710181038305,
+        "neutron_mass": 1011.9643924483863,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07716207891083873,
+          "mass_neutron": 0.0770562892917321,
+          "mass_diff": 0.0002895162844394619,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014376277200059512,
+      "timestamp": 1764863395.822231
+    },
+    {
+      "iteration": 474248,
+      "parameters": {
+        "freq_u": 0.9875838601645873,
+        "amp_u": 0.9835809921061083,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.133975606096461
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4633936415596835,
+      "details": {
+        "proton_mass": 1010.5641193504438,
+        "neutron_mass": 1011.8580373286524,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07704814739270033,
+          "mass_neutron": 0.07694309316401984,
+          "mass_diff": 0.0007099599447615138,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014004649280662775,
+      "timestamp": 1764863397.7074518
+    },
+    {
+      "iteration": 491780,
+      "parameters": {
+        "freq_u": 0.9880016551089837,
+        "amp_u": 0.98341572672289,
+        "freq_d": 0.92,
+        "amp_d": 0.9001351350613195,
+        "coupling": 2.1393849512770102
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46358529110639946,
+      "details": {
+        "proton_mass": 1010.2301468687856,
+        "neutron_mass": 1011.5207183235434,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0766922031871201,
+          "mass_neutron": 0.0765840770181343,
+          "mass_diff": 0.0018782252453181487,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012829268302642215,
+      "timestamp": 1764863403.906281
+    },
+    {
+      "iteration": 469415,
+      "parameters": {
+        "freq_u": 0.9887175035963589,
+        "amp_u": 0.982527582632325,
+        "freq_d": 0.92,
+        "amp_d": 0.9000665475018643,
+        "coupling": 2.133948628267492
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46374019659813703,
+      "details": {
+        "proton_mass": 1010.5593579218802,
+        "neutron_mass": 1011.8511919228503,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07704307271439426,
+          "mass_neutron": 0.07693580744583951,
+          "mass_diff": 0.0009017780587178644,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01434719462207098,
+      "timestamp": 1764863395.96576
+    },
+    {
+      "iteration": 487985,
+      "parameters": {
+        "freq_u": 0.9884447908656548,
+        "amp_u": 0.9830263444601414,
+        "freq_d": 0.92,
+        "amp_d": 0.900198806575044,
+        "coupling": 2.139165162859039
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4638908223311783,
+      "details": {
+        "proton_mass": 1010.2860628121064,
+        "neutron_mass": 1011.5814479382634,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07675179778583004,
+          "mass_neutron": 0.0766487129025276,
+          "mass_diff": 0.0018446451330526752,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01307502855970789,
+      "timestamp": 1764863402.556768
+    },
+    {
+      "iteration": 495188,
+      "parameters": {
+        "freq_u": 0.9882430606879613,
+        "amp_u": 0.983252156642815,
+        "freq_d": 0.92,
+        "amp_d": 0.9001015768782594,
+        "coupling": 2.145067931245926
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4640173096564044,
+      "details": {
+        "proton_mass": 1009.6600429457861,
+        "neutron_mass": 1010.9479743514365,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07608459268291719,
+          "mass_neutron": 0.07597449282533562,
+          "mass_diff": 0.003920026565822994,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012612509062459261,
+      "timestamp": 1764863405.092263
+    },
+    {
+      "iteration": 477765,
+      "parameters": {
+        "freq_u": 0.9880327656589054,
+        "amp_u": 0.9831410735852255,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.13444852796724
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46406522863900346,
+      "details": {
+        "proton_mass": 1010.4804523294185,
+        "neutron_mass": 1011.7751485400322,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07695897599994297,
+          "mass_neutron": 0.07685487277626576,
+          "mass_diff": 0.001311841155188607,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013760529625616705,
+      "timestamp": 1764863398.965266
+    },
+    {
+      "iteration": 466013,
+      "parameters": {
+        "freq_u": 0.9887550788105338,
+        "amp_u": 0.9824048842910654,
+        "freq_d": 0.92,
+        "amp_d": 0.9000425202387605,
+        "coupling": 2.130916581575047
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4640800029843279,
+      "details": {
+        "proton_mass": 1010.792367554698,
+        "neutron_mass": 1012.085787320568,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07729141182375467,
+          "mass_neutron": 0.07718549256365226,
+          "mass_diff": 0.00032464491105356475,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014593328451462984,
+      "timestamp": 1764863394.739224
+    },
+    {
+      "iteration": 491496,
+      "parameters": {
+        "freq_u": 0.9883848621030799,
+        "amp_u": 0.9833948530030544,
+        "freq_d": 0.9205093259232708,
+        "amp_d": 0.9,
+        "coupling": 2.1386094291442794
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4642168257026503,
+      "details": {
+        "proton_mass": 1010.7941433534264,
+        "neutron_mass": 1012.0876440716299,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07729330445054991,
+          "mass_neutron": 0.077187468745249,
+          "mass_diff": 0.00038725305762683223,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012847498849833642,
+      "timestamp": 1764863403.807276
+    },
+    {
+      "iteration": 485579,
+      "parameters": {
+        "freq_u": 0.9872971546638175,
+        "amp_u": 0.9842045822881597,
+        "freq_d": 0.920196475086415,
+        "amp_d": 0.9,
+        "coupling": 2.1408016378635955
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4642339231885012,
+      "details": {
+        "proton_mass": 1010.2615178913651,
+        "neutron_mass": 1011.5517990108603,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07672563807868618,
+          "mass_neutron": 0.07661715688734712,
+          "mass_diff": 0.0021027691452006453,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013233271471583194,
+      "timestamp": 1764863401.7095292
+    },
+    {
+      "iteration": 492829,
+      "parameters": {
+        "freq_u": 0.9874845257143616,
+        "amp_u": 0.9838122740018924,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1415138858324223
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46434707715789764,
+      "details": {
+        "proton_mass": 1009.8911367705588,
+        "neutron_mass": 1011.1884444748512,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07633088994508919,
+          "mass_neutron": 0.07623043054482777,
+          "mass_diff": 0.003331557844073391,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01276215478167739,
+      "timestamp": 1764863404.26631
+    },
+    {
+      "iteration": 483006,
+      "parameters": {
+        "freq_u": 0.9877254387090934,
+        "amp_u": 0.9834731815042007,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1359420073383855
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46442034526580395,
+      "details": {
+        "proton_mass": 1010.3725806470904,
+        "neutron_mass": 1011.6679507053886,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07684400754481685,
+          "mass_neutron": 0.07674077972826637,
+          "mass_diff": 0.001832991723277148,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013404617759159377,
+      "timestamp": 1764863400.791402
+    },
+    {
+      "iteration": 478565,
+      "parameters": {
+        "freq_u": 0.9883163399908053,
+        "amp_u": 0.9831641676530144,
+        "freq_d": 0.9202554986300584,
+        "amp_d": 0.9,
+        "coupling": 2.1363503526241283
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4645035024980448,
+      "details": {
+        "proton_mass": 1010.6497031668271,
+        "neutron_mass": 1011.9414166897494,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07713936168491335,
+          "mass_neutron": 0.07703183567901035,
+          "mass_diff": 0.0009949552031368438,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013705597307662111,
+      "timestamp": 1764863399.2548218
+    },
+    {
+      "iteration": 486542,
+      "parameters": {
+        "freq_u": 0.987539987223634,
+        "amp_u": 0.984118550704018,
+        "freq_d": 0.92,
+        "amp_d": 0.900367406581214,
+        "coupling": 2.139848026948531
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4645228057267085,
+      "details": {
+        "proton_mass": 1010.5320433457832,
+        "neutron_mass": 1011.8268220690625,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07701396113896948,
+          "mass_neutron": 0.07690987006653335,
+          "mass_diff": 0.001375656055100018,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013169706266574453,
+      "timestamp": 1764863402.043691
+    },
+    {
+      "iteration": 462889,
+      "parameters": {
+        "freq_u": 0.9885718848710386,
+        "amp_u": 0.9825396707394146,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1306237627316484
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.464586052337225,
+      "details": {
+        "proton_mass": 1010.7803438210441,
+        "neutron_mass": 1012.0725447039209,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07727859706038764,
+          "mass_neutron": 0.07717139815118791,
+          "mass_diff": 0.0006180333512491544,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014823066398556196,
+      "timestamp": 1764863393.530151
+    },
+    {
+      "iteration": 470383,
+      "parameters": {
+        "freq_u": 0.9887966906574146,
+        "amp_u": 0.9823675293316919,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1332444046933574
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46462269712720133,
+      "details": {
+        "proton_mass": 1010.5278031168596,
+        "neutron_mass": 1011.8189347674348,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07700944194951945,
+          "mass_neutron": 0.07690147543537144,
+          "mass_diff": 0.0014449724862643318,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014277921802371241,
+      "timestamp": 1764863396.3110368
+    },
+    {
+      "iteration": 483703,
+      "parameters": {
+        "freq_u": 0.98851800309407,
+        "amp_u": 0.9833305118832679,
+        "freq_d": 0.92,
+        "amp_d": 0.9005244773639132,
+        "coupling": 2.14096262748674
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46480682552482494,
+      "details": {
+        "proton_mass": 1010.5553379089814,
+        "neutron_mass": 1011.8502038330398,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07703878822876667,
+          "mass_neutron": 0.0769347557998007,
+          "mass_diff": 0.0014430967195614164,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013357983856457407,
+      "timestamp": 1764863401.062479
+    },
+    {
+      "iteration": 494282,
+      "parameters": {
+        "freq_u": 0.9874454458046451,
+        "amp_u": 0.9839042003305677,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.143159712580569
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46484487178960376,
+      "details": {
+        "proton_mass": 1009.7661862391539,
+        "neutron_mass": 1011.0540209414611,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07619771904005854,
+          "mass_neutron": 0.07608736057799198,
+          "mass_diff": 0.003994816467726086,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012669773477647476,
+      "timestamp": 1764863404.776862
+    },
+    {
+      "iteration": 484844,
+      "parameters": {
+        "freq_u": 0.98742819922637,
+        "amp_u": 0.9838622964726248,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.140125440278981
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46487711901720125,
+      "details": {
+        "proton_mass": 1010.0372084310952,
+        "neutron_mass": 1011.3261442463364,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07648657151774237,
+          "mass_neutron": 0.07637698748499183,
+          "mass_diff": 0.003143221004499324,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013281993337640147,
+      "timestamp": 1764863401.455293
+    },
+    {
+      "iteration": 451823,
+      "parameters": {
+        "freq_u": 0.9886470319573955,
+        "amp_u": 0.9824419733847195,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1295726021813017
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4649359383554558,
+      "details": {
+        "proton_mass": 1010.8649304317547,
+        "neutron_mass": 1012.1586032547569,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07736874854173914,
+          "mass_neutron": 0.07726299218761543,
+          "mass_diff": 0.0005203580836960897,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015666342890666138,
+      "timestamp": 1764863389.490297
+    },
+    {
+      "iteration": 474102,
+      "parameters": {
+        "freq_u": 0.9889447883807628,
+        "amp_u": 0.9827981955174039,
+        "freq_d": 0.92,
+        "amp_d": 0.9004923620715847,
+        "coupling": 2.1368321686234184
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46497777153151976,
+      "details": {
+        "proton_mass": 1010.8467341477665,
+        "neutron_mass": 1012.1405089805781,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07734935514196996,
+          "mass_neutron": 0.07724373404775411,
+          "mass_diff": 0.0005992519811737701,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014014876432661935,
+      "timestamp": 1764863397.656189
+    },
+    {
+      "iteration": 492476,
+      "parameters": {
+        "freq_u": 0.987600590124143,
+        "amp_u": 0.9841006021020045,
+        "freq_d": 0.92,
+        "amp_d": 0.9003549684532288,
+        "coupling": 2.1422229403881983
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46498875931129435,
+      "details": {
+        "proton_mass": 1010.3069479635121,
+        "neutron_mass": 1011.5969281478194,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07677405695098231,
+          "mass_neutron": 0.07666518883506662,
+          "mass_diff": 0.002335510976573791,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012784699931472045,
+      "timestamp": 1764863404.144146
+    },
+    {
+      "iteration": 454245,
+      "parameters": {
+        "freq_u": 0.9892192246953796,
+        "amp_u": 0.9818702421489748,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1292018839318434
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4650109619042952,
+      "details": {
+        "proton_mass": 1010.8504996896265,
+        "neutron_mass": 1012.1427157382888,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0773533684151573,
+          "mass_neutron": 0.07724608274923896,
+          "mass_diff": 0.0006063042055532133,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015477767137590024,
+      "timestamp": 1764863390.368475
+    },
+    {
+      "iteration": 496436,
+      "parameters": {
+        "freq_u": 0.9887374054326008,
+        "amp_u": 0.9835556055205792,
+        "freq_d": 0.9207746990821841,
+        "amp_d": 0.9001180851189721,
+        "coupling": 2.1448670580902456
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4651148802824109,
+      "details": {
+        "proton_mass": 1010.7315374732938,
+        "neutron_mass": 1012.0258757018123,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07722657979060839,
+          "mass_neutron": 0.07712172729062093,
+          "mass_diff": 0.0010349795193614634,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012534051850844488,
+      "timestamp": 1764863405.523016
+    },
+    {
+      "iteration": 461842,
+      "parameters": {
+        "freq_u": 0.9892644896996573,
+        "amp_u": 0.9819853216512108,
+        "freq_d": 0.92,
+        "amp_d": 0.9001338054343763,
+        "coupling": 2.1302792045461887
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46514623917443637,
+      "details": {
+        "proton_mass": 1010.928521532545,
+        "neutron_mass": 1012.2209729459195,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07743652323904471,
+          "mass_neutron": 0.07732937364197198,
+          "mass_diff": 0.00042427426569315144,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014900868815803393,
+      "timestamp": 1764863393.1471722
+    },
+    {
+      "iteration": 488791,
+      "parameters": {
+        "freq_u": 0.9873775315852772,
+        "amp_u": 0.9838644503762191,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1385103381640373
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4651553563601969,
+      "details": {
+        "proton_mass": 1010.1708416991818,
+        "neutron_mass": 1011.4675177007496,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07662899638823467,
+          "mass_neutron": 0.07652745440789037,
+          "mass_diff": 0.002843001985910895,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013022442096041045,
+      "timestamp": 1764863402.851402
+    },
+    {
+      "iteration": 473408,
+      "parameters": {
+        "freq_u": 0.988649751989947,
+        "amp_u": 0.9825873079316128,
+        "freq_d": 0.92,
+        "amp_d": 0.9000114529786831,
+        "coupling": 2.1372679562916685
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46525299707621853,
+      "details": {
+        "proton_mass": 1010.184558720558,
+        "neutron_mass": 1011.4812411637223,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07664361583907221,
+          "mass_neutron": 0.07654206059583131,
+          "mass_diff": 0.002847983885753971,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01406359264942797,
+      "timestamp": 1764863397.405256
+    },
+    {
+      "iteration": 477297,
+      "parameters": {
+        "freq_u": 0.9884828775526491,
+        "amp_u": 0.9833104341962218,
+        "freq_d": 0.9205628327146754,
+        "amp_d": 0.9,
+        "coupling": 2.1363090374456664
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46540187794115545,
+      "details": {
+        "proton_mass": 1011.0673288424027,
+        "neutron_mass": 1012.3604678184757,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07758446254647125,
+          "mass_neutron": 0.07747784114827147,
+          "mass_diff": 0.00010748342846365377,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013792767048609414,
+      "timestamp": 1764863398.795454
+    },
+    {
+      "iteration": 489052,
+      "parameters": {
+        "freq_u": 0.9877644149390582,
+        "amp_u": 0.9837355892443139,
+        "freq_d": 0.9202280489014797,
+        "amp_d": 0.9,
+        "coupling": 2.139607826591626
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4654466759647968,
+      "details": {
+        "proton_mass": 1010.359645310031,
+        "neutron_mass": 1011.6557308545985,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07683022120454516,
+          "mass_neutron": 0.07672777386833099,
+          "mass_diff": 0.0023863453730841697,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013005458850625312,
+      "timestamp": 1764863402.945986
+    },
+    {
+      "iteration": 486121,
+      "parameters": {
+        "freq_u": 0.9880568563327325,
+        "amp_u": 0.9833996432884432,
+        "freq_d": 0.92,
+        "amp_d": 0.9001363323728587,
+        "coupling": 2.141156777544215
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46560839687023226,
+      "details": {
+        "proton_mass": 1010.0720815951516,
+        "neutron_mass": 1011.3606880326213,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07652373895325833,
+          "mass_neutron": 0.07641375320773042,
+          "mass_diff": 0.003397960193632999,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013197457765850244,
+      "timestamp": 1764863401.898774
+    },
+    {
+      "iteration": 443016,
+      "parameters": {
+        "freq_u": 0.988453930842992,
+        "amp_u": 0.982613457764053,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1284687393491124
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4656196812289519,
+      "details": {
+        "proton_mass": 1010.980957276716,
+        "neutron_mass": 1012.2745928687237,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07749240867969627,
+          "mass_neutron": 0.07738644252257554,
+          "mass_diff": 0.000491563811068241,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.016371626685543608,
+      "timestamp": 1764863386.3348842
+    },
+    {
+      "iteration": 480498,
+      "parameters": {
+        "freq_u": 0.9883111917642099,
+        "amp_u": 0.9832155662427481,
+        "freq_d": 0.9201102766648506,
+        "amp_d": 0.9001819279599247,
+        "coupling": 2.1370257418187997
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46575227402761576,
+      "details": {
+        "proton_mass": 1010.6222329481847,
+        "neutron_mass": 1011.9174330479929,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07711008422737181,
+          "mass_neutron": 0.07700630935378903,
+          "mass_diff": 0.0017015466420666082,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013573770459546376,
+      "timestamp": 1764863399.917498
+    },
+    {
+      "iteration": 461533,
+      "parameters": {
+        "freq_u": 0.9891767811724824,
+        "amp_u": 0.9819449784136872,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.130818754518596
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46579887825274746,
+      "details": {
+        "proton_mass": 1010.7115285289145,
+        "neutron_mass": 1012.0026588097206,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07720525447728854,
+          "mass_neutron": 0.07709701703418131,
+          "mass_diff": 0.0014460318591689326,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014923908509303424,
+      "timestamp": 1764863393.014563
+    },
+    {
+      "iteration": 474939,
+      "parameters": {
+        "freq_u": 0.9885428350543133,
+        "amp_u": 0.9826723686386022,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.136801997715779
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4658141647045279,
+      "details": {
+        "proton_mass": 1010.2200289044065,
+        "neutron_mass": 1011.516927157179,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0766814195717302,
+          "mass_neutron": 0.07658004199515621,
+          "mass_diff": 0.0030148900019343313,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013956346587592542,
+      "timestamp": 1764863397.9533749
+    },
+    {
+      "iteration": 471350,
+      "parameters": {
+        "freq_u": 0.9882447384294949,
+        "amp_u": 0.9831762091452255,
+        "freq_d": 0.9202047665517881,
+        "amp_d": 0.9000239876628227,
+        "coupling": 2.1350170622665674
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46592579046731614,
+      "details": {
+        "proton_mass": 1010.7300262939967,
+        "neutron_mass": 1012.0248939263383,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0772249691922989,
+          "mass_neutron": 0.07712068236507137,
+          "mass_diff": 0.0014444178976026657,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014209054499154267,
+      "timestamp": 1764863396.659612
+    },
+    {
+      "iteration": 490117,
+      "parameters": {
+        "freq_u": 0.9881300728372128,
+        "amp_u": 0.9840258764946155,
+        "freq_d": 0.92,
+        "amp_d": 0.9007497098319146,
+        "coupling": 2.144308080285288
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4660237955922078,
+      "details": {
+        "proton_mass": 1010.6002086546688,
+        "neutron_mass": 1011.8907323728477,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07708661097706074,
+          "mass_neutron": 0.07697789122928972,
+          "mass_diff": 0.0019151444865782396,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012936388672130908,
+      "timestamp": 1764863403.3289862
+    },
+    {
+      "iteration": 465115,
+      "parameters": {
+        "freq_u": 0.9890393184288394,
+        "amp_u": 0.9820814964804737,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1313362842169252
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4660468944708424,
+      "details": {
+        "proton_mass": 1010.6691763432596,
+        "neutron_mass": 1011.9643729826875,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07716011598263563,
+          "mass_neutron": 0.07705626857395433,
+          "mass_diff": 0.0016988704005362542,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014658999982648,
+      "timestamp": 1764863394.404556
+    },
+    {
+      "iteration": 451998,
+      "parameters": {
+        "freq_u": 0.9891167588373347,
+        "amp_u": 0.9824315347424254,
+        "freq_d": 0.92,
+        "amp_d": 0.9003630370864885,
+        "coupling": 2.133376377986028
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46619446517641927,
+      "details": {
+        "proton_mass": 1010.9717645027531,
+        "neutron_mass": 1012.2637158576562,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07748261112209791,
+          "mass_neutron": 0.07737486587692827,
+          "mass_diff": 0.0008110170896703758,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015652640801919523,
+      "timestamp": 1764863389.552029
+    },
+    {
+      "iteration": 482480,
+      "parameters": {
+        "freq_u": 0.9882312298324718,
+        "amp_u": 0.9829543283787995,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1352496012361386
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46623651403390504,
+      "details": {
+        "proton_mass": 1010.3875503642771,
+        "neutron_mass": 1011.6840304391733,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07685996210510071,
+          "mass_neutron": 0.07675789374782291,
+          "mass_diff": 0.002691473237567118,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013439918392102545,
+      "timestamp": 1764863400.605694
+    },
+    {
+      "iteration": 449870,
+      "parameters": {
+        "freq_u": 0.9886738166526892,
+        "amp_u": 0.9825913977364396,
+        "freq_d": 0.92,
+        "amp_d": 0.9001123418395919,
+        "coupling": 2.1328787516025653
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4662731492115533,
+      "details": {
+        "proton_mass": 1010.7137042516154,
+        "neutron_mass": 1012.0088632819512,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07720757333866438,
+          "mass_neutron": 0.07710362059245626,
+          "mass_diff": 0.0016697837090956873,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015820074486245547,
+      "timestamp": 1764863388.796171
+    },
+    {
+      "iteration": 460642,
+      "parameters": {
+        "freq_u": 0.988253291436734,
+        "amp_u": 0.9828619137752742,
+        "freq_d": 0.9200557331887043,
+        "amp_d": 0.9,
+        "coupling": 2.1278820070521687
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4662871119502504,
+      "details": {
+        "proton_mass": 1011.1316390392219,
+        "neutron_mass": 1012.4241922381626,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07765300364843229,
+          "mass_neutron": 0.07754566447043319,
+          "mass_diff": 0.00034555379682697893,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014990543006433226,
+      "timestamp": 1764863392.6895108
+    },
+    {
+      "iteration": 495329,
+      "parameters": {
+        "freq_u": 0.9886360863322147,
+        "amp_u": 0.9838614697806888,
+        "freq_d": 0.9206605627483169,
+        "amp_d": 0.9004328356067379,
+        "coupling": 2.144344756279816
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46642114478276087,
+      "details": {
+        "proton_mass": 1011.0493957776429,
+        "neutron_mass": 1012.3432662874424,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07756534968286682,
+          "mass_neutron": 0.07745953317486529,
+          "mass_diff": 0.000673248104782242,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012603620354985932,
+      "timestamp": 1764863405.142675
+    },
+    {
+      "iteration": 470439,
+      "parameters": {
+        "freq_u": 0.9881962658487278,
+        "amp_u": 0.9829732655590009,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1335847554009013
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46643210227380466,
+      "details": {
+        "proton_mass": 1010.5526086863117,
+        "neutron_mass": 1011.8426708292382,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07703587945319872,
+          "mass_neutron": 0.0769267382557227,
+          "mass_diff": 0.002272124573520209,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014273924533917069,
+      "timestamp": 1764863396.33073
+    },
+    {
+      "iteration": 485706,
+      "parameters": {
+        "freq_u": 0.9886571058771527,
+        "amp_u": 0.9826923570611433,
+        "freq_d": 0.92,
+        "amp_d": 0.9000494131923188,
+        "coupling": 2.1414399861588946
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46652127122261283,
+      "details": {
+        "proton_mass": 1009.8565793380972,
+        "neutron_mass": 1011.1554322380589,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07629405901284181,
+          "mass_neutron": 0.07619529488439739,
+          "mass_diff": 0.004526604765447602,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013224870990632444,
+      "timestamp": 1764863401.753942
+    },
+    {
+      "iteration": 453101,
+      "parameters": {
+        "freq_u": 0.9881753288022493,
+        "amp_u": 0.9829250780774619,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1300341870002164
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46652145883744917,
+      "details": {
+        "proton_mass": 1010.8699805518926,
+        "neutron_mass": 1012.161298693058,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07737413090435666,
+          "mass_neutron": 0.07726586100275976,
+          "mass_diff": 0.0013007415580499743,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015566553875574816,
+      "timestamp": 1764863389.946008
+    },
+    {
+      "iteration": 458376,
+      "parameters": {
+        "freq_u": 0.9894237599200348,
+        "amp_u": 0.9816501028087823,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1281808445698185
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46667365087593793,
+      "details": {
+        "proton_mass": 1010.9254701166777,
+        "neutron_mass": 1012.2169193832326,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07743327107350287,
+          "mass_neutron": 0.07732505934473138,
+          "mass_diff": 0.0011993298106176054,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015161352091974683,
+      "timestamp": 1764863391.8622148
+    },
+    {
+      "iteration": 440507,
+      "parameters": {
+        "freq_u": 0.9885480556569844,
+        "amp_u": 0.9825166503319521,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.128385882425047
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.466727331695217,
+      "details": {
+        "proton_mass": 1010.9786179086116,
+        "neutron_mass": 1012.2729777663286,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07748991540684526,
+          "mass_neutron": 0.07738472353304833,
+          "mass_diff": 0.0010517074377681109,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.016578302925212188,
+      "timestamp": 1764863385.357153
+    },
+    {
+      "iteration": 491284,
+      "parameters": {
+        "freq_u": 0.9879342309807431,
+        "amp_u": 0.9840242831940645,
+        "freq_d": 0.920078920139406,
+        "amp_d": 0.9005564310681331,
+        "coupling": 2.1408959293558314
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46674276226480793,
+      "details": {
+        "proton_mass": 1010.766067827723,
+        "neutron_mass": 1012.0613139508063,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07726338186338601,
+          "mass_neutron": 0.07715944500998463,
+          "mass_diff": 0.001737140822347996,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012861124452972446,
+      "timestamp": 1764863403.736062
+    },
+    {
+      "iteration": 464199,
+      "parameters": {
+        "freq_u": 0.9883674802174495,
+        "amp_u": 0.9827236703103159,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.129467092320914
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46689174011260975,
+      "details": {
+        "proton_mass": 1010.9039941860347,
+        "neutron_mass": 1012.1952132581118,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07741038226232329,
+          "mass_neutron": 0.07730195703129829,
+          "mass_diff": 0.0013773611158724905,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01472629235269789,
+      "timestamp": 1764863394.0523121
+    },
+    {
+      "iteration": 438820,
+      "parameters": {
+        "freq_u": 0.9885779044550056,
+        "amp_u": 0.982425630052699,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.124942373422011
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46693305589971945,
+      "details": {
+        "proton_mass": 1011.2867550681867,
+        "neutron_mass": 1012.5799772523006,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07781832460969385,
+          "mass_neutron": 0.07771146993800385,
+          "mass_diff": 0.0001718361283131871,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.016718732691377268,
+      "timestamp": 1764863384.737047
+    },
+    {
+      "iteration": 447348,
+      "parameters": {
+        "freq_u": 0.9889968382505472,
+        "amp_u": 0.9820770636231306,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1288140302928187
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46734030558410716,
+      "details": {
+        "proton_mass": 1010.8991693719438,
+        "neutron_mass": 1012.1942522545612,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07740524002841793,
+          "mass_neutron": 0.07730093421377036,
+          "mass_diff": 0.0016108914287711312,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.016020829225836464,
+      "timestamp": 1764863387.9293818
+    },
+    {
+      "iteration": 467077,
+      "parameters": {
+        "freq_u": 0.9891213453321587,
+        "amp_u": 0.9826833117350402,
+        "freq_d": 0.92,
+        "amp_d": 0.9006093664180055,
+        "coupling": 2.133323521466361
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4673696687675772,
+      "details": {
+        "proton_mass": 1011.3044634487886,
+        "neutron_mass": 1012.5970308022545,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07783719800738866,
+          "mass_neutron": 0.07772962041184424,
+          "mass_diff": 0.0003346067549392391,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014515897898418149,
+      "timestamp": 1764863395.1200728
+    },
+    {
+      "iteration": 475515,
+      "parameters": {
+        "freq_u": 0.9885346990672793,
+        "amp_u": 0.9828882809087691,
+        "freq_d": 0.92,
+        "amp_d": 0.9001880657387015,
+        "coupling": 2.136385061819023
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46742768594035944,
+      "details": {
+        "proton_mass": 1010.5249344740103,
+        "neutron_mass": 1011.8142370723206,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0770063845814542,
+          "mass_neutron": 0.07689647557361173,
+          "mass_diff": 0.002859552737580817,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01391621003345894,
+      "timestamp": 1764863398.161959
+    },
+    {
+      "iteration": 486299,
+      "parameters": {
+        "freq_u": 0.9881018790828794,
+        "amp_u": 0.98358479663307,
+        "freq_d": 0.9203926344121725,
+        "amp_d": 0.9,
+        "coupling": 2.1396248769680732
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46744352555056695,
+      "details": {
+        "proton_mass": 1010.5724759101081,
+        "neutron_mass": 1011.8619650635648,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07705705372227674,
+          "mass_neutron": 0.07694727353995168,
+          "mass_diff": 0.002715271881940856,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013185717224403098,
+      "timestamp": 1764863401.960356
+    },
+    {
+      "iteration": 455209,
+      "parameters": {
+        "freq_u": 0.9882284630410083,
+        "amp_u": 0.982946014333179,
+        "freq_d": 0.9200971828412388,
+        "amp_d": 0.9,
+        "coupling": 2.1286816487850486
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4674679237640843,
+      "details": {
+        "proton_mass": 1011.1220043717232,
+        "neutron_mass": 1012.4137527101977,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07764273512555327,
+          "mass_neutron": 0.07753455344781647,
+          "mass_diff": 0.0009680290219875291,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015403343618694653,
+      "timestamp": 1764863390.708823
+    },
+    {
+      "iteration": 448213,
+      "parameters": {
+        "freq_u": 0.9890350286829539,
+        "amp_u": 0.9822719362752109,
+        "freq_d": 0.9202137726971554,
+        "amp_d": 0.9,
+        "coupling": 2.1291224709466476
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4674786273041488,
+      "details": {
+        "proton_mass": 1011.1745253002255,
+        "neutron_mass": 1012.4664841357686,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07769871135473021,
+          "mass_neutron": 0.07759067668098381,
+          "mass_diff": 0.00080523159850337,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015951688590982192,
+      "timestamp": 1764863388.225685
+    },
+    {
+      "iteration": 435924,
+      "parameters": {
+        "freq_u": 0.9889974682329707,
+        "amp_u": 0.9820489459166303,
+        "freq_d": 0.9200466385065094,
+        "amp_d": 0.9,
+        "coupling": 2.12453109462158
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46747938597594507,
+      "details": {
+        "proton_mass": 1011.3519108678876,
+        "neutron_mass": 1012.6452168998375,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07788776694592561,
+          "mass_neutron": 0.07778090595098519,
+          "mass_diff": 0.0002366836426063286,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.016962581756951204,
+      "timestamp": 1764863383.717039
+    },
+    {
+      "iteration": 452072,
+      "parameters": {
+        "freq_u": 0.988796257353273,
+        "amp_u": 0.9825076821462261,
+        "freq_d": 0.92,
+        "amp_d": 0.9001833579452274,
+        "coupling": 2.1304111899037914
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46762713941444745,
+      "details": {
+        "proton_mass": 1011.0267930559957,
+        "neutron_mass": 1012.3180440836169,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07754125995020165,
+          "mass_neutron": 0.0774326886203901,
+          "mass_diff": 0.0013526468513360955,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01564685038164052,
+      "timestamp": 1764863389.58029
+    },
+    {
+      "iteration": 489048,
+      "parameters": {
+        "freq_u": 0.9881438483084736,
+        "amp_u": 0.9831813587640321,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1415027211363347
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46763521401618624,
+      "details": {
+        "proton_mass": 1009.8553669841962,
+        "neutron_mass": 1011.1417631978051,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07629276689935979,
+          "mass_neutron": 0.07618074661977085,
+          "mass_diff": 0.005107336729397182,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013005718963053725,
+      "timestamp": 1764863402.944066
+    },
+    {
+      "iteration": 484107,
+      "parameters": {
+        "freq_u": 0.9880277023839324,
+        "amp_u": 0.9832244358458153,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.137780848050563
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4676870415105541,
+      "details": {
+        "proton_mass": 1010.1962843812911,
+        "neutron_mass": 1011.4840583819392,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0766561129195916,
+          "mass_neutron": 0.07654505902405813,
+          "mass_diff": 0.0040417628398024775,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013331027896362873,
+      "timestamp": 1764863401.20164
+    },
+    {
+      "iteration": 460527,
+      "parameters": {
+        "freq_u": 0.9890244590450626,
+        "amp_u": 0.9820670182052768,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1291761823010353
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46771056246334675,
+      "details": {
+        "proton_mass": 1010.8733205407243,
+        "neutron_mass": 1012.163882163416,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0773776906277969,
+          "mass_neutron": 0.0772686106479232,
+          "mass_diff": 0.001885829318093222,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01499916506882254,
+      "timestamp": 1764863392.6475258
+    },
+    {
+      "iteration": 441554,
+      "parameters": {
+        "freq_u": 0.988450520493849,
+        "amp_u": 0.9826969359966297,
+        "freq_d": 0.92,
+        "amp_d": 0.9000498371844696,
+        "coupling": 2.129608130709149
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4677270693281853,
+      "details": {
+        "proton_mass": 1010.9513958003906,
+        "neutron_mass": 1012.2422699528331,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0774609023826679,
+          "mass_neutron": 0.07735204052176597,
+          "mass_diff": 0.0016441203074418482,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01649174206373611,
+      "timestamp": 1764863385.7803142
+    },
+    {
+      "iteration": 474727,
+      "parameters": {
+        "freq_u": 0.988143148307174,
+        "amp_u": 0.9830204328463228,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1341606942689997
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46772880331886824,
+      "details": {
+        "proton_mass": 1010.4918230469733,
+        "neutron_mass": 1011.7888359998502,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07697109478591843,
+          "mass_neutron": 0.07686944064524558,
+          "mass_diff": 0.003103598512688097,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.013971148195445765,
+      "timestamp": 1764863397.8778
+    },
+    {
+      "iteration": 462082,
+      "parameters": {
+        "freq_u": 0.988392188434583,
+        "amp_u": 0.9827717717748683,
+        "freq_d": 0.92,
+        "amp_d": 0.9000809570200622,
+        "coupling": 2.1292613137267886
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4677947623981632,
+      "details": {
+        "proton_mass": 1011.0212616242736,
+        "neutron_mass": 1012.3161343411138,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07753536461098015,
+          "mass_neutron": 0.07743065603881977,
+          "mass_diff": 0.0014483502243817228,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014882998452910547,
+      "timestamp": 1764863393.23481
+    },
+    {
+      "iteration": 465904,
+      "parameters": {
+        "freq_u": 0.9885027359319968,
+        "amp_u": 0.9827729891494713,
+        "freq_d": 0.9201966208757449,
+        "amp_d": 0.9,
+        "coupling": 2.1288865627734355
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4683617716436041,
+      "details": {
+        "proton_mass": 1011.2136245317405,
+        "neutron_mass": 1012.5080699833604,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07774038288656215,
+          "mass_neutron": 0.07763493742674575,
+          "mass_diff": 0.0011179053518401896,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014601284003048868,
+      "timestamp": 1764863394.700464
+    },
+    {
+      "iteration": 437592,
+      "parameters": {
+        "freq_u": 0.9894080722082917,
+        "amp_u": 0.9816138195387821,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.125813359617028
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46837198727473434,
+      "details": {
+        "proton_mass": 1011.1323604870287,
+        "neutron_mass": 1012.4271475681329,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0776537725595868,
+          "mass_neutron": 0.07754880989408168,
+          "mass_diff": 0.0013821199568644657,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.016821701759072032,
+      "timestamp": 1764863384.3071082
+    },
+    {
+      "iteration": 468978,
+      "parameters": {
+        "freq_u": 0.9887291533694625,
+        "amp_u": 0.9829225185924774,
+        "freq_d": 0.9203867067796118,
+        "amp_d": 0.9001010998998964,
+        "coupling": 2.132797911001733
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46846823569542945,
+      "details": {
+        "proton_mass": 1011.245568259855,
+        "neutron_mass": 1012.5399506998049,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07777442816140193,
+          "mass_neutron": 0.07766886878481512,
+          "mass_diff": 0.001069172428389141,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.01437857759418915,
+      "timestamp": 1764863395.810784
+    },
+    {
+      "iteration": 451539,
+      "parameters": {
+        "freq_u": 0.9883869315275174,
+        "amp_u": 0.9826579278047071,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1269584044276497
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4684871625053616,
+      "details": {
+        "proton_mass": 1011.1272233969192,
+        "neutron_mass": 1012.4183330407449,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07764829750532809,
+          "mass_neutron": 0.07753942839584788,
+          "mass_diff": 0.0014619924009168434,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015688604955551518,
+      "timestamp": 1764863389.3920069
+    },
+    {
+      "iteration": 448683,
+      "parameters": {
+        "freq_u": 0.9879351702989584,
+        "amp_u": 0.9831530807249663,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.12932763911611
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46851983784969736,
+      "details": {
+        "proton_mass": 1010.956362205404,
+        "neutron_mass": 1012.2467433332318,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07746619552262457,
+          "mass_neutron": 0.07735680164036739,
+          "mass_diff": 0.002025423180360752,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015914246041413838,
+      "timestamp": 1764863388.387081
+    },
+    {
+      "iteration": 448756,
+      "parameters": {
+        "freq_u": 0.9884393648292142,
+        "amp_u": 0.9826361804220144,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.129193569802789
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4686294932013383,
+      "details": {
+        "proton_mass": 1010.9128665523059,
+        "neutron_mass": 1012.2087247065019,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07741983833292035,
+          "mass_neutron": 0.0773163375673869,
+          "mass_diff": 0.002210482750208275,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015908438387050916,
+      "timestamp": 1764863388.411926
+    },
+    {
+      "iteration": 472364,
+      "parameters": {
+        "freq_u": 0.9890242659714047,
+        "amp_u": 0.9821915022740709,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1369329119130818
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4687038043082698,
+      "details": {
+        "proton_mass": 1010.1613962750696,
+        "neutron_mass": 1011.4604005644223,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07661892955888008,
+          "mass_neutron": 0.07651987948084729,
+          "mass_diff": 0.004643688594543842,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.014137196726577032,
+      "timestamp": 1764863397.02085
+    },
+    {
+      "iteration": 498368,
+      "parameters": {
+        "freq_u": 0.987743691249924,
+        "amp_u": 0.9836351276650903,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1442826331871316
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4687271789982975,
+      "details": {
+        "proton_mass": 1009.6451321634662,
+        "neutron_mass": 1010.9299506109787,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07606870093476747,
+          "mass_neutron": 0.07595530975608783,
+          "mass_diff": 0.00632757346286581,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012413555542907179,
+      "timestamp": 1764863406.203466
+    },
+    {
+      "iteration": 490315,
+      "parameters": {
+        "freq_u": 0.9879029310751525,
+        "amp_u": 0.9838980427153122,
+        "freq_d": 0.920493124143134,
+        "amp_d": 0.9,
+        "coupling": 2.14020673994786
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.468748408381972,
+      "details": {
+        "proton_mass": 1010.6799435990788,
+        "neutron_mass": 1011.9690323059009,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0771715916057164,
+          "mass_neutron": 0.07706122759564356,
+          "mass_diff": 0.003024975388946066,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012923587952745183,
+      "timestamp": 1764863403.397001
+    },
+    {
+      "iteration": 430437,
+      "parameters": {
+        "freq_u": 0.9884054525936553,
+        "amp_u": 0.9825775380327942,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1239922856281446
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4687673926417176,
+      "details": {
+        "proton_mass": 1011.3855193878248,
+        "neutron_mass": 1012.6795178381665,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07792358653761894,
+          "mass_neutron": 0.07781741320522413,
+          "mass_diff": 0.0007721967065941702,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.017434393856158588,
+      "timestamp": 1764863381.674595
+    },
+    {
+      "iteration": 491785,
+      "parameters": {
+        "freq_u": 0.9878221668345443,
+        "amp_u": 0.9836700205561081,
+        "freq_d": 0.92,
+        "amp_d": 0.9001460204070622,
+        "coupling": 2.142283627155007
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4688600957295663,
+      "details": {
+        "proton_mass": 1010.0097099514136,
+        "neutron_mass": 1011.2959516049082,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.0764572639398954,
+          "mass_neutron": 0.07634485278283898,
+          "mass_diff": 0.005226872780681557,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012828947574141948,
+      "timestamp": 1764863403.9080598
+    },
+    {
+      "iteration": 448200,
+      "parameters": {
+        "freq_u": 0.9887257315870691,
+        "amp_u": 0.9823646036365524,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1299666447960566
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4689044394562941,
+      "details": {
+        "proton_mass": 1010.8171568812709,
+        "neutron_mass": 1012.1135870177451,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07731783201595148,
+          "mass_neutron": 0.0772150804018296,
+          "mass_diff": 0.002652851101475437,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.015952725487031614,
+      "timestamp": 1764863388.221031
+    },
+    {
+      "iteration": 435327,
+      "parameters": {
+        "freq_u": 0.988572001691978,
+        "amp_u": 0.9824364908481595,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1249859589350235
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46898750785141713,
+      "details": {
+        "proton_mass": 1011.2869219293138,
+        "neutron_mass": 1012.5783685661961,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07781850244845183,
+          "mass_neutron": 0.07770975777747792,
+          "mass_diff": 0.0012013635868139542,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.017013290835916666,
+      "timestamp": 1764863383.497919
+    },
+    {
+      "iteration": 492579,
+      "parameters": {
+        "freq_u": 0.9880184233258718,
+        "amp_u": 0.9833139958705001,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1418014913739616
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4690318821705264,
+      "details": {
+        "proton_mass": 1009.8416768094605,
+        "neutron_mass": 1011.1271115334332,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07627817606137716,
+          "mass_neutron": 0.07616515252636395,
+          "mass_diff": 0.005850948203651548,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.012778117489675424,
+      "timestamp": 1764863404.180196
+    },
+    {
+      "iteration": 420362,
+      "parameters": {
+        "freq_u": 0.9882339685989393,
+        "amp_u": 0.9827072532992787,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.1217065556646655
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.46904227386512837,
+      "details": {
+        "proton_mass": 1011.6068465391685,
+        "neutron_mass": 1012.9001098376232,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07815947458644022,
+          "mass_neutron": 0.07805219419372063,
+          "mass_diff": 0.0002036337623229193,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.018335151044658868,
+      "timestamp": 1764863377.797195
+    },
+    {
+      "iteration": 394082,
+      "parameters": {
+        "freq_u": 0.9881380836091145,
+        "amp_u": 0.9827916060400632,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.121081638769058
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4690492431475934,
+      "details": {
+        "proton_mass": 1011.6717893822001,
+        "neutron_mass": 1012.9647893361711,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07822868995579116,
+          "mass_neutron": 0.07812103402763088,
+          "mass_diff": 3.559866365767733e-08,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.020909850590249957,
+      "timestamp": 1764863367.802581
+    },
+    {
+      "iteration": 433554,
+      "parameters": {
+        "freq_u": 0.9878093229764087,
+        "amp_u": 0.9832047143011975,
+        "freq_d": 0.92,
+        "amp_d": 0.9,
+        "coupling": 2.125507891522412
+      },
+      "phases": {
+        "proton": [
+          0.8369678778650501,
+          0.9375901873145758,
+          1.2690996808298685
+        ],
+        "neutron": [
+          1.8520458582220507,
+          1.1045565137845161,
+          0.49370992646409684
+        ]
+      },
+      "error": 0.4691051545051314,
+      "details": {
+        "proton_mass": 1011.307417014831,
+        "neutron_mass": 1012.5988722833606,
+        "proton_charge": 1.0,
+        "neutron_charge": 0.0,
+        "proton_spin": 0.5,
+        "neutron_spin": 0.5,
+        "errors": {
+          "mass_proton": 0.07784034588566104,
+          "mass_neutron": 0.07773158034128617,
+          "mass_diff": 0.0011946879121448887,
+          "charge_proton": 0.0,
+          "charge_neutron": 0.0,
+          "spin_proton": 0.0,
+          "spin_neutron": 0.0
+        }
+      },
+      "temperature": 0.017164784541626905,
+      "timestamp": 1764863382.841238
+    }
+  ],
+  "best_solution": {
+    "iteration": 499084,
+    "parameters": {
+      "freq_u": 0.9881838378080932,
+      "amp_u": 0.983123217041057,
+      "freq_d": 0.92,
+      "amp_d": 0.9,
+      "coupling": 2.141422384062947
+    },
+    "phases": {
+      "proton": [
+        0.8369678778650501,
+        0.9375901873145758,
+        1.2690996808298685
+      ],
+      "neutron": [
+        1.8520458582220507,
+        1.1045565137845161,
+        0.49370992646409684
+      ]
+    },
+    "error": 0.4582227386024827,
+    "details": {
+      "proton_mass": 1009.8447057786794,
+      "neutron_mass": 1011.1382536819992,
+      "proton_charge": 1.0,
+      "neutron_charge": 0.0,
+      "proton_spin": 0.5,
+      "neutron_spin": 0.5,
+      "errors": {
+        "mass_proton": 0.07628140430352753,
+        "mass_neutron": 0.07617701136376852,
+        "mass_diff": 0.000423745800297277,
+        "charge_proton": 0.0,
+        "charge_neutron": 0.0,
+        "spin_proton": 0.0,
+        "spin_neutron": 0.0
+      }
+    },
+    "temperature": 0.012369194357062215,
+    "timestamp": 1764863406.452611
+  },
+  "temperature": 0.012312672838681375,
+  "elapsed_time": 202.14596390724182
+}

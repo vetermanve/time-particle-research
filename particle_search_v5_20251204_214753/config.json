@@ -1,0 +1,104 @@
+{
+  "target_particles": {
+    "proton": {
+      "mass": 938.272,
+      "charge": 1.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "u",
+        "d"
+      ],
+      "is_meson": false
+    },
+    "neutron": {
+      "mass": 939.565,
+      "charge": 0.0,
+      "spin": 0.5,
+      "composition": [
+        "u",
+        "d",
+        "d"
+      ],
+      "is_meson": false
+    },
+    "pi+": {
+      "mass": 139.57,
+      "charge": 1.0,
+      "spin": 0.0,
+      "composition": [
+        "u",
+        "anti_d"
+      ],
+      "is_meson": true
+    }
+  },
+  "type_properties": {
+    "u": {
+      "charge": 0.6666666666666666,
+      "base_mass": 2.3
+    },
+    "d": {
+      "charge": -0.3333333333333333,
+      "base_mass": 4.8
+    },
+    "anti_u": {
+      "charge": -0.6666666666666666,
+      "base_mass": 2.3
+    },
+    "anti_d": {
+      "charge": 0.3333333333333333,
+      "base_mass": 4.8
+    }
+  },
+  "param_ranges": {
+    "frequency": {
+      "u": {
+        "min": 0.9,
+        "max": 1.1,
+        "step": 0.001
+      },
+      "d": {
+        "min": 0.9,
+        "max": 1.1,
+        "step": 0.001
+      }
+    },
+    "amplitude": {
+      "u": {
+        "min": 0.95,
+        "max": 1.05,
+        "step": 0.001
+      },
+      "d": {
+        "min": 0.9,
+        "max": 1.0,
+        "step": 0.001
+      }
+    },
+    "coupling_baryon": {
+      "min": 0.5,
+      "max": 3.0,
+      "step": 0.01
+    },
+    "coupling_meson": {
+      "min": 1.0,
+      "max": 5.0,
+      "step": 0.05
+    },
+    "phase_shift": {
+      "min": 2.827433388230814,
+      "max": 3.455751918948773,
+      "step": 0.01
+    }
+  },
+  "search": {
+    "max_iterations": 100000,
+    "save_interval": 25000,
+    "min_error": 0.01,
+    "max_solutions": 50,
+    "scale_factor": 100.0,
+    "temperature": 0.2,
+    "cooling_rate": 0.99999
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "iteration": 1000000,
+  "error": 0.14671274281165386,
+  "params": {
+    "base_mass_u": 2.291807793232901,
+    "base_mass_d": 4.542602344102704,
+    "freq_u": 0.9760547569442901,
+    "freq_d": 0.941619454784862,
+    "amp_u": 0.9955114137059329,
+    "amp_d": 0.8047458956155986,
+    "coupling_proton": 1.5649711506103379,
+    "coupling_neutron": 0.3353384168929663,
+    "coupling_meson_ud": 4.354321317303979,
+    "phase_shift_pi": 3.114663684722277,
+    "phase_shift_nucleon": 1.5329312282616678
+  },
+  "details": {
+    "mass_proton": 937.144717973319,
+    "mass_neutron": 938.4377023825401,
+    "mass_pion": 141.06492639414023,
+    "mass_diff": 1.2929844092211624,
+    "charge_proton": 1.0,
+    "charge_neutron": 0.0,
+    "charge_pion": 1.0,
+    "ratio_md_mu": 1.5457537044602951
+  },
+  "timestamp": "2025-12-04T23:11:18.505270"
+}
