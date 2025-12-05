@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-12-05T03:38:46.409937",
+  "total_workers": 6,
+  "active_workers": 0,
+  "total_iterations": 0,
+  "total_target_iterations": 0,
+  "best_errors": [
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity
+  ],
+  "statuses": [
+    "initializing",
+    "initializing",
+    "initializing",
+    "initializing",
+    "initializing",
+    "initializing"
+  ],
+  "workers": [
+    {
+      "worker_id": 0,
+      "status": "initializing",
+      "iterations": 0,
+      "total_iterations": 0,
+      "current_error": 0,
+      "best_error": Infinity,
+      "temperature": 0,
+      "start_time": 1764895126.4061198,
+      "last_update": 1764895126.406121
+    },
+    {
+      "worker_id": 1,
+      "status": "initializing",
+      "iterations": 0,
+      "total_iterations": 0,
+      "current_error": 0,
+      "best_error": Infinity,
+      "temperature": 0,
+      "start_time": 1764895126.406383,
+      "last_update": 1764895126.406383
+    },
+    {
+      "worker_id": 2,
+      "status": "initializing",
+      "iterations": 0,
+      "total_iterations": 0,
+      "current_error": 0,
+      "best_error": Infinity,
+      "temperature": 0,
+      "start_time": 1764895126.40657,
+      "last_update": 1764895126.40657
+    },
+    {
+      "worker_id": 3,
+      "status": "initializing",
+      "iterations": 0,
+      "total_iterations": 0,
+      "current_error": 0,
+      "best_error": Infinity,
+      "temperature": 0,
+      "start_time": 1764895126.406752,
+      "last_update": 1764895126.406752
+    },
+    {
+      "worker_id": 4,
+      "status": "initializing",
+      "iterations": 0,
+      "total_iterations": 0,
+      "current_error": 0,
+      "best_error": Infinity,
+      "temperature": 0,
+      "start_time": 1764895126.407016,
+      "last_update": 1764895126.407016
+    },
+    {
+      "worker_id": 5,
+      "status": "initializing",
+      "iterations": 0,
+      "total_iterations": 0,
+      "current_error": 0,
+      "best_error": Infinity,
+      "temperature": 0,
+      "start_time": 1764895126.4071941,
+      "last_update": 1764895126.4071941
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "iteration": 90000,
+  "total_iterations": 500000,
+  "progress_percent": 18.0,
+  "current_error": 9.104751603143054,
+  "best_error": 9.104751603143054,
+  "temperature": 1.6529591282840719,
+  "current_params": {
+    "base_mass_u": 2.402837573220715,
+    "base_mass_d": 5.178115360953461,
+    "freq_u": 0.7283495265276799,
+    "freq_d": 0.7067047170090401,
+    "amp_u": 0.8413525196927314,
+    "amp_d": 0.7619179341429351,
+    "coupling_proton": 1.1626474968455585,
+    "coupling_neutron": 0.417709173048125,
+    "coupling_meson_charged": 2.4742229738359125,
+    "coupling_meson_neutral": 1.4741673433357458,
+    "scale_factor": 92.29919853558526,
+    "color_coupling": 0.5866620670670357,
+    "phase_coupling": 0.7998265294800951,
+    "meson_coupling_scale": 0.547569888071607,
+    "baryon_coupling_scale": 0.9262622592886601
+  },
+  "best_params": {
+    "base_mass_u": 2.402837573220715,
+    "base_mass_d": 5.178115360953461,
+    "freq_u": 0.7283495265276799,
+    "freq_d": 0.7067047170090401,
+    "amp_u": 0.8413525196927314,
+    "amp_d": 0.7619179341429351,
+    "coupling_proton": 1.1626474968455585,
+    "coupling_neutron": 0.417709173048125,
+    "coupling_meson_charged": 2.4742229738359125,
+    "coupling_meson_neutral": 1.4741673433357458,
+    "scale_factor": 92.29919853558526,
+    "color_coupling": 0.5866620670670357,
+    "phase_coupling": 0.7998265294800951,
+    "meson_coupling_scale": 0.547569888071607,
+    "baryon_coupling_scale": 0.9262622592886601
+  },
+  "timestamp": "2025-12-05T04:45:50.433007"
+}

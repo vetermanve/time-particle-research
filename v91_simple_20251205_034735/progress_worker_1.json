@@ -1,0 +1,9 @@
+{
+  "worker_id": 1,
+  "iteration": 6001,
+  "total_iterations": 200000,
+  "progress_percent": 3.0005,
+  "current_error": 30018.31554423818,
+  "temperature": 6.681943184808682,
+  "timestamp": "2025-12-05T03:49:02.707095"
+}

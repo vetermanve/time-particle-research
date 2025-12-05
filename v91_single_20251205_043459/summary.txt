@@ -1,0 +1,580 @@
+
+=== Итерация 0 ===
+Ошибка: 132941.690
+Параметры:
+  base_mass_u: 2.311965
+  base_mass_d: 3.047483
+  freq_u: 0.732741
+  freq_d: 1.015788
+  amp_u: 0.958501
+  amp_d: 1.020866
+  color_coupling: 1.329720
+  phase_coupling: 1.263080
+  meson_coupling_scale: 5.880262
+  baryon_coupling_scale: 0.842763
+  coupling_proton: 1.373808
+  coupling_neutron: 0.299439
+  coupling_meson_charged: 4.296027
+  coupling_meson_neutral: 2.862341
+  scale_factor: 90.941065
+Время: 04:34:59
+
+=== Итерация 10000 ===
+Ошибка: 30048.812
+Параметры:
+  base_mass_u: 2.385886
+  base_mass_d: 5.400602
+  freq_u: 0.910379
+  freq_d: 0.752836
+  amp_u: 0.812375
+  amp_d: 0.997821
+  color_coupling: 0.535142
+  phase_coupling: 0.976728
+  meson_coupling_scale: 5.233429
+  baryon_coupling_scale: 0.717706
+  coupling_proton: 1.787270
+  coupling_neutron: 0.470512
+  coupling_meson_charged: 3.241656
+  coupling_meson_neutral: 3.238259
+  scale_factor: 104.750159
+Время: 04:35:05
+
+=== Итерация 20000 ===
+Ошибка: 30018.691
+Параметры:
+  base_mass_u: 2.944233
+  base_mass_d: 4.130206
+  freq_u: 0.713472
+  freq_d: 0.788100
+  amp_u: 0.834075
+  amp_d: 1.099923
+  color_coupling: 0.896620
+  phase_coupling: 0.766067
+  meson_coupling_scale: 2.384311
+  baryon_coupling_scale: 0.822633
+  coupling_proton: 1.597132
+  coupling_neutron: 0.663785
+  coupling_meson_charged: 4.311101
+  coupling_meson_neutral: 3.181614
+  scale_factor: 95.985379
+Время: 04:35:10
+
+=== Итерация 20000 ===
+Ошибка: 30015.186
+Параметры:
+  base_mass_u: 2.979859
+  base_mass_d: 5.826179
+  freq_u: 0.762544
+  freq_d: 0.747063
+  amp_u: 0.850478
+  amp_d: 0.955965
+  color_coupling: 0.736588
+  phase_coupling: 0.743099
+  meson_coupling_scale: 2.838317
+  baryon_coupling_scale: 0.641799
+  coupling_proton: 1.788923
+  coupling_neutron: 0.460744
+  coupling_meson_charged: 3.765491
+  coupling_meson_neutral: 2.681148
+  scale_factor: 99.363523
+Время: 04:35:10
+
+=== Итерация 30000 ===
+Ошибка: 30010.976
+Параметры:
+  base_mass_u: 2.595186
+  base_mass_d: 4.599359
+  freq_u: 0.816340
+  freq_d: 0.767789
+  amp_u: 0.912020
+  amp_d: 1.085506
+  color_coupling: 0.706885
+  phase_coupling: 1.486471
+  meson_coupling_scale: 2.227132
+  baryon_coupling_scale: 0.524776
+  coupling_proton: 1.750886
+  coupling_neutron: 0.676549
+  coupling_meson_charged: 4.527625
+  coupling_meson_neutral: 3.711187
+  scale_factor: 98.509869
+Время: 04:35:16
+
+=== Итерация 40000 ===
+Ошибка: 30010.976
+Параметры:
+  base_mass_u: 2.595186
+  base_mass_d: 4.599359
+  freq_u: 0.816340
+  freq_d: 0.767789
+  amp_u: 0.912020
+  amp_d: 1.085506
+  color_coupling: 0.706885
+  phase_coupling: 1.486471
+  meson_coupling_scale: 2.227132
+  baryon_coupling_scale: 0.524776
+  coupling_proton: 1.750886
+  coupling_neutron: 0.676549
+  coupling_meson_charged: 4.527625
+  coupling_meson_neutral: 3.711187
+  scale_factor: 98.509869
+Время: 04:35:22
+
+=== Итерация 40000 ===
+Ошибка: 30010.976
+Параметры:
+  base_mass_u: 2.595186
+  base_mass_d: 4.599359
+  freq_u: 0.816340
+  freq_d: 0.767789
+  amp_u: 0.912020
+  amp_d: 1.085506
+  color_coupling: 0.706885
+  phase_coupling: 1.486471
+  meson_coupling_scale: 2.227132
+  baryon_coupling_scale: 0.524776
+  coupling_proton: 1.750886
+  coupling_neutron: 0.676549
+  coupling_meson_charged: 4.527625
+  coupling_meson_neutral: 3.711187
+  scale_factor: 98.509869
+Время: 04:35:22
+
+=== Итерация 50000 ===
+Ошибка: 30002.070
+Параметры:
+  base_mass_u: 2.650554
+  base_mass_d: 5.006385
+  freq_u: 0.706644
+  freq_d: 0.753269
+  amp_u: 0.964948
+  amp_d: 0.901785
+  color_coupling: 0.741226
+  phase_coupling: 1.961062
+  meson_coupling_scale: 3.700970
+  baryon_coupling_scale: 0.784020
+  coupling_proton: 1.283148
+  coupling_neutron: 0.679387
+  coupling_meson_charged: 4.150798
+  coupling_meson_neutral: 2.751066
+  scale_factor: 92.881792
+Время: 04:35:28
+
+=== Итерация 60000 ===
+Ошибка: 30002.458
+Параметры:
+  base_mass_u: 2.423152
+  base_mass_d: 4.932630
+  freq_u: 0.713918
+  freq_d: 0.715176
+  amp_u: 0.923857
+  amp_d: 0.844163
+  color_coupling: 0.772449
+  phase_coupling: 1.793389
+  meson_coupling_scale: 3.446762
+  baryon_coupling_scale: 1.013193
+  coupling_proton: 1.088956
+  coupling_neutron: 0.595656
+  coupling_meson_charged: 4.058743
+  coupling_meson_neutral: 2.560751
+  scale_factor: 91.223152
+Время: 04:35:34
+
+=== Итерация 60000 ===
+Ошибка: 30002.070
+Параметры:
+  base_mass_u: 2.650554
+  base_mass_d: 5.006385
+  freq_u: 0.706644
+  freq_d: 0.753269
+  amp_u: 0.964948
+  amp_d: 0.901785
+  color_coupling: 0.741226
+  phase_coupling: 1.961062
+  meson_coupling_scale: 3.700970
+  baryon_coupling_scale: 0.784020
+  coupling_proton: 1.283148
+  coupling_neutron: 0.679387
+  coupling_meson_charged: 4.150798
+  coupling_meson_neutral: 2.751066
+  scale_factor: 92.881792
+Время: 04:35:34
+
+=== Итерация 70000 ===
+Ошибка: 30004.753
+Параметры:
+  base_mass_u: 2.257270
+  base_mass_d: 4.951383
+  freq_u: 0.800212
+  freq_d: 0.701411
+  amp_u: 0.841972
+  amp_d: 0.760422
+  color_coupling: 0.837108
+  phase_coupling: 1.557545
+  meson_coupling_scale: 2.985315
+  baryon_coupling_scale: 0.717600
+  coupling_proton: 1.066837
+  coupling_neutron: 0.485732
+  coupling_meson_charged: 3.605642
+  coupling_meson_neutral: 2.534228
+  scale_factor: 91.339071
+Время: 04:35:39
+
+=== Итерация 80000 ===
+Ошибка: 30000.688
+Параметры:
+  base_mass_u: 2.089474
+  base_mass_d: 5.012590
+  freq_u: 0.858427
+  freq_d: 0.726805
+  amp_u: 0.927096
+  amp_d: 0.810214
+  color_coupling: 1.015657
+  phase_coupling: 1.393911
+  meson_coupling_scale: 3.297346
+  baryon_coupling_scale: 0.786721
+  coupling_proton: 1.119067
+  coupling_neutron: 0.557194
+  coupling_meson_charged: 3.857016
+  coupling_meson_neutral: 2.745373
+  scale_factor: 91.917566
+Время: 04:35:45
+
+=== Итерация 80000 ===
+Ошибка: 30000.688
+Параметры:
+  base_mass_u: 2.089474
+  base_mass_d: 5.012590
+  freq_u: 0.858427
+  freq_d: 0.726805
+  amp_u: 0.927096
+  amp_d: 0.810214
+  color_coupling: 1.015657
+  phase_coupling: 1.393911
+  meson_coupling_scale: 3.297346
+  baryon_coupling_scale: 0.786721
+  coupling_proton: 1.119067
+  coupling_neutron: 0.557194
+  coupling_meson_charged: 3.857016
+  coupling_meson_neutral: 2.745373
+  scale_factor: 91.917566
+Время: 04:35:45
+
+=== Итерация 90000 ===
+Ошибка: 30002.092
+Параметры:
+  base_mass_u: 2.056665
+  base_mass_d: 5.019518
+  freq_u: 0.877593
+  freq_d: 0.747376
+  amp_u: 0.925479
+  amp_d: 0.835743
+  color_coupling: 1.021319
+  phase_coupling: 1.383344
+  meson_coupling_scale: 3.415485
+  baryon_coupling_scale: 0.804350
+  coupling_proton: 1.162996
+  coupling_neutron: 0.554628
+  coupling_meson_charged: 3.803590
+  coupling_meson_neutral: 2.820565
+  scale_factor: 91.050954
+Время: 04:35:50
+
+=== Итерация 100000 ===
+Ошибка: 30002.420
+Параметры:
+  base_mass_u: 2.028408
+  base_mass_d: 5.186492
+  freq_u: 0.934718
+  freq_d: 0.777578
+  amp_u: 0.912189
+  amp_d: 0.857157
+  color_coupling: 1.048384
+  phase_coupling: 1.384610
+  meson_coupling_scale: 3.292541
+  baryon_coupling_scale: 0.773670
+  coupling_proton: 1.188796
+  coupling_neutron: 0.509891
+  coupling_meson_charged: 3.780816
+  coupling_meson_neutral: 2.658001
+  scale_factor: 91.293924
+Время: 04:35:56
+
+=== Итерация 100000 ===
+Ошибка: 30000.433
+Параметры:
+  base_mass_u: 2.067055
+  base_mass_d: 4.968282
+  freq_u: 0.891828
+  freq_d: 0.766551
+  amp_u: 0.889651
+  amp_d: 0.849906
+  color_coupling: 1.123278
+  phase_coupling: 1.429256
+  meson_coupling_scale: 3.260004
+  baryon_coupling_scale: 0.821223
+  coupling_proton: 1.116431
+  coupling_neutron: 0.509883
+  coupling_meson_charged: 3.748423
+  coupling_meson_neutral: 2.646660
+  scale_factor: 91.753843
+Время: 04:35:56
+
+=== Итерация 110000 ===
+Ошибка: 30000.465
+Параметры:
+  base_mass_u: 2.145988
+  base_mass_d: 5.178769
+  freq_u: 0.942794
+  freq_d: 0.790869
+  amp_u: 0.910096
+  amp_d: 0.861330
+  color_coupling: 1.027411
+  phase_coupling: 1.369223
+  meson_coupling_scale: 3.433115
+  baryon_coupling_scale: 0.724268
+  coupling_proton: 1.193109
+  coupling_neutron: 0.510150
+  coupling_meson_charged: 3.806680
+  coupling_meson_neutral: 2.684010
+  scale_factor: 91.536782
+Время: 04:36:02
+
+=== Итерация 120000 ===
+Ошибка: 30000.906
+Параметры:
+  base_mass_u: 2.149671
+  base_mass_d: 5.314510
+  freq_u: 0.930722
+  freq_d: 0.784967
+  amp_u: 0.900947
+  amp_d: 0.858389
+  color_coupling: 1.112860
+  phase_coupling: 1.360146
+  meson_coupling_scale: 3.363446
+  baryon_coupling_scale: 0.721531
+  coupling_proton: 1.202558
+  coupling_neutron: 0.504089
+  coupling_meson_charged: 3.743510
+  coupling_meson_neutral: 2.660151
+  scale_factor: 90.976131
+Время: 04:36:07
+
+=== Итерация 120000 ===
+Ошибка: 30000.433
+Параметры:
+  base_mass_u: 2.067055
+  base_mass_d: 4.968282
+  freq_u: 0.891828
+  freq_d: 0.766551
+  amp_u: 0.889651
+  amp_d: 0.849906
+  color_coupling: 1.123278
+  phase_coupling: 1.429256
+  meson_coupling_scale: 3.260004
+  baryon_coupling_scale: 0.821223
+  coupling_proton: 1.116431
+  coupling_neutron: 0.509883
+  coupling_meson_charged: 3.748423
+  coupling_meson_neutral: 2.646660
+  scale_factor: 91.753843
+Время: 04:36:07
+
+=== Итерация 130000 ===
+Ошибка: 30000.663
+Параметры:
+  base_mass_u: 2.154030
+  base_mass_d: 5.296446
+  freq_u: 0.929976
+  freq_d: 0.794981
+  amp_u: 0.909610
+  amp_d: 0.857072
+  color_coupling: 1.136496
+  phase_coupling: 1.348569
+  meson_coupling_scale: 3.367236
+  baryon_coupling_scale: 0.716510
+  coupling_proton: 1.197753
+  coupling_neutron: 0.497058
+  coupling_meson_charged: 3.743258
+  coupling_meson_neutral: 2.637541
+  scale_factor: 91.382100
+Время: 04:36:13
+
+=== Итерация 140000 ===
+Ошибка: 30000.706
+Параметры:
+  base_mass_u: 2.138037
+  base_mass_d: 5.292040
+  freq_u: 0.932811
+  freq_d: 0.796251
+  amp_u: 0.909384
+  amp_d: 0.857840
+  color_coupling: 1.123824
+  phase_coupling: 1.349613
+  meson_coupling_scale: 3.376783
+  baryon_coupling_scale: 0.682021
+  coupling_proton: 1.222804
+  coupling_neutron: 0.493948
+  coupling_meson_charged: 3.724132
+  coupling_meson_neutral: 2.587555
+  scale_factor: 91.555571
+Время: 04:36:18
+
+=== Итерация 140000 ===
+Ошибка: 30000.328
+Параметры:
+  base_mass_u: 2.137426
+  base_mass_d: 5.319416
+  freq_u: 0.934266
+  freq_d: 0.792166
+  amp_u: 0.905801
+  amp_d: 0.856322
+  color_coupling: 1.125653
+  phase_coupling: 1.337084
+  meson_coupling_scale: 3.360368
+  baryon_coupling_scale: 0.725653
+  coupling_proton: 1.202052
+  coupling_neutron: 0.498293
+  coupling_meson_charged: 3.756537
+  coupling_meson_neutral: 2.621892
+  scale_factor: 90.903961
+Время: 04:36:18
+
+=== Итерация 150000 ===
+Ошибка: 30000.692
+Параметры:
+  base_mass_u: 2.139794
+  base_mass_d: 5.267973
+  freq_u: 0.933353
+  freq_d: 0.801672
+  amp_u: 0.907034
+  amp_d: 0.857642
+  color_coupling: 1.147461
+  phase_coupling: 1.338193
+  meson_coupling_scale: 3.408254
+  baryon_coupling_scale: 0.670109
+  coupling_proton: 1.233542
+  coupling_neutron: 0.490035
+  coupling_meson_charged: 3.714336
+  coupling_meson_neutral: 2.582820
+  scale_factor: 91.289590
+Время: 04:36:24
+
+=== Итерация 160000 ===
+Ошибка: 30000.467
+Параметры:
+  base_mass_u: 2.136028
+  base_mass_d: 5.255920
+  freq_u: 0.934403
+  freq_d: 0.800746
+  amp_u: 0.908736
+  amp_d: 0.858764
+  color_coupling: 1.144544
+  phase_coupling: 1.339438
+  meson_coupling_scale: 3.388531
+  baryon_coupling_scale: 0.660558
+  coupling_proton: 1.240818
+  coupling_neutron: 0.494168
+  coupling_meson_charged: 3.727933
+  coupling_meson_neutral: 2.576838
+  scale_factor: 91.313703
+Время: 04:36:29
+
+=== Итерация 160000 ===
+Ошибка: 30000.328
+Параметры:
+  base_mass_u: 2.137426
+  base_mass_d: 5.319416
+  freq_u: 0.934266
+  freq_d: 0.792166
+  amp_u: 0.905801
+  amp_d: 0.856322
+  color_coupling: 1.125653
+  phase_coupling: 1.337084
+  meson_coupling_scale: 3.360368
+  baryon_coupling_scale: 0.725653
+  coupling_proton: 1.202052
+  coupling_neutron: 0.498293
+  coupling_meson_charged: 3.756537
+  coupling_meson_neutral: 2.621892
+  scale_factor: 90.903961
+Время: 04:36:29
+
+=== Итерация 170000 ===
+Ошибка: 30000.522
+Параметры:
+  base_mass_u: 2.128549
+  base_mass_d: 5.252946
+  freq_u: 0.932718
+  freq_d: 0.798792
+  amp_u: 0.909324
+  amp_d: 0.859892
+  color_coupling: 1.132824
+  phase_coupling: 1.336520
+  meson_coupling_scale: 3.372106
+  baryon_coupling_scale: 0.662622
+  coupling_proton: 1.249364
+  coupling_neutron: 0.494535
+  coupling_meson_charged: 3.711351
+  coupling_meson_neutral: 2.571896
+  scale_factor: 91.339345
+Время: 04:36:35
+
+=== Итерация 180000 ===
+Ошибка: 30000.521
+Параметры:
+  base_mass_u: 2.127207
+  base_mass_d: 5.256077
+  freq_u: 0.933223
+  freq_d: 0.798044
+  amp_u: 0.909789
+  amp_d: 0.860446
+  color_coupling: 1.139747
+  phase_coupling: 1.335783
+  meson_coupling_scale: 3.356035
+  baryon_coupling_scale: 0.663044
+  coupling_proton: 1.261620
+  coupling_neutron: 0.495324
+  coupling_meson_charged: 3.713651
+  coupling_meson_neutral: 2.571815
+  scale_factor: 91.272499
+Время: 04:36:40
+
+=== Итерация 180000 ===
+Ошибка: 30000.328
+Параметры:
+  base_mass_u: 2.137426
+  base_mass_d: 5.319416
+  freq_u: 0.934266
+  freq_d: 0.792166
+  amp_u: 0.905801
+  amp_d: 0.856322
+  color_coupling: 1.125653
+  phase_coupling: 1.337084
+  meson_coupling_scale: 3.360368
+  baryon_coupling_scale: 0.725653
+  coupling_proton: 1.202052
+  coupling_neutron: 0.498293
+  coupling_meson_charged: 3.756537
+  coupling_meson_neutral: 2.621892
+  scale_factor: 90.903961
+Время: 04:36:40
+
+=== Итерация 190000 ===
+Ошибка: 30000.521
+Параметры:
+  base_mass_u: 2.127207
+  base_mass_d: 5.256077
+  freq_u: 0.933223
+  freq_d: 0.798044
+  amp_u: 0.909789
+  amp_d: 0.860446
+  color_coupling: 1.139747
+  phase_coupling: 1.335783
+  meson_coupling_scale: 3.356035
+  baryon_coupling_scale: 0.663044
+  coupling_proton: 1.261620
+  coupling_neutron: 0.495324
+  coupling_meson_charged: 3.713651
+  coupling_meson_neutral: 2.571815
+  scale_factor: 91.272499
+Время: 04:36:46

@@ -1,0 +1,48 @@
+{
+  "model_version": "11.1.2",
+  "description": "Аналитическая модель мезонов на основе приближения гармонического осциллятора для потенциала Корнелла",
+  "timestamp": "20251205_191608",
+  "physical_constants": {
+    "hbar_c_MeV_fm": 197.3269804,
+    "m_u_MeV": 2.16,
+    "m_d_MeV": 4.67
+  },
+  "optimized_parameters": {
+    "sigma_linear": 950.0,
+    "a": 130.0,
+    "kappa_ss": 40000.0
+  },
+  "calculated_masses": {
+    "pi+": {
+      "mass_MeV": -1039475.4432640636,
+      "binding_energy_MeV": -1039482.2732640635,
+      "target_mass_MeV": 139.57
+    },
+    "rho+": {
+      "mass_MeV": 345311.09603218717,
+      "binding_energy_MeV": 345304.26603218715,
+      "target_mass_MeV": 775.26
+    },
+    "pi0": {
+      "mass_MeV": -1039475.4432640636,
+      "binding_energy_MeV": -1039482.2732640635,
+      "target_mass_MeV": 134.977
+    },
+    "rho0": {
+      "mass_MeV": 345311.09603218717,
+      "binding_energy_MeV": 345304.26603218715,
+      "target_mass_MeV": 775.26
+    }
+  },
+  "analysis": {
+    "pion": {
+      "reduced_mass_MeV": 1.476896046852123,
+      "oscillator_frequency_MeV": 35.867560246323336,
+      "average_distance_fm": 0.13739600899421567,
+      "zero_point_energy_MeV": 53.801340369485004,
+      "coulomb_energy_MeV": -946.1701322450564,
+      "spin_spin_energy_MeV": -1038589.904472188,
+      "psi0_squared_fm-3": 69.23932696481253
+    }
+  }
+}
