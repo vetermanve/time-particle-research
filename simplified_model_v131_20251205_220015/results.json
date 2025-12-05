@@ -1,0 +1,29 @@
+{
+  "model": "v13.1_simplified_topological",
+  "timestamp": "2025-12-05T22:00:15.709327",
+  "parameters": {
+    "m_u": 1.5,
+    "m_d": 2.5,
+    "m_s": 8.000000000000012,
+    "alpha": 2.100426061657611,
+    "beta": 0.13018560798810602,
+    "gamma": 3.9249689839954296e-16,
+    "mix_eta": 6.0,
+    "scale": 100.0
+  },
+  "masses": {
+    "proton": 970.0852123315223,
+    "neutron": 965.0639092486417,
+    "pi+": 189.9573938342389,
+    "pi0": 89.95739383423889,
+    "K+": 712.6128694471441,
+    "eta": 200.0000000000007,
+    "Lambda0": 1674.7742611057151
+  },
+  "optimization_result": {
+    "success": true,
+    "message": "Optimization terminated successfully.",
+    "iterations": 1072,
+    "final_error": 1.0944164589577192
+  }
+}

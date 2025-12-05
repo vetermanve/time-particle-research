@@ -1,0 +1,56 @@
+{
+  "model": "v21.3.0",
+  "timestamp": "2025-12-05T21:22:47.487972",
+  "total_error": 105160.18685969364,
+  "base_parameters": {
+    "m_u_base": 2.203806,
+    "m_d_base": 4.58302,
+    "E_sync_proton": 1.613565,
+    "E_sync_neutron": 0.285395,
+    "E_sync_pion": 4.273121,
+    "scale": 100.0
+  },
+  "optimized_corrections": {
+    "EM_proton": -5.426445224090447,
+    "EM_neutron": 4.983305745492464,
+    "EM_pi_charged": 0.025881877625268487,
+    "delta_pi0": -4.58403788013084,
+    "sync_proton_corr": -542.6015216200858,
+    "sync_neutron_corr": 498.3374927452345,
+    "sync_pion_corr": -2.572433135903263
+  },
+  "predictions": {
+    "proton": {
+      "calculated": 1060.4197000000001,
+      "target": 938.272,
+      "abs_error": 122.1477000000001,
+      "rel_error": 13.01836780805567
+    },
+    "neutron": {
+      "calculated": 1165.5241,
+      "target": 939.565,
+      "abs_error": 225.95910000000003,
+      "rel_error": 24.049331339502857
+    },
+    "pi+": {
+      "calculated": 251.37050000000008,
+      "target": 139.57,
+      "abs_error": 111.80050000000008,
+      "rel_error": 80.10353227771017
+    },
+    "pi0": {
+      "calculated": 246.7775000000001,
+      "target": 134.977,
+      "abs_error": 111.80050000000008,
+      "rel_error": 82.82929684316593
+    },
+    "pi-": {
+      "calculated": 251.37050000000008,
+      "target": 139.57,
+      "abs_error": 111.80050000000008,
+      "rel_error": 80.10353227771017
+    }
+  },
+  "mass_difference_n_p": 105.10439999999994,
+  "target_difference": 1.293
+}
