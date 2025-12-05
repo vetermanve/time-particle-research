@@ -1,0 +1,11 @@
+{
+  "experiment": 30,
+  "version": "30.3",
+  "timestamp": "20251206_000154",
+  "num_threads": 2000,
+  "code_dim": 5,
+  "parameters": {
+    "min_sync_strength": 0.2,
+    "max_clique_size": 4
+  }
+}

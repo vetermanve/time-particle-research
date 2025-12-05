@@ -1,0 +1,10 @@
+{
+  "total_threads": 500,
+  "sync_edges": 74,
+  "ensembles_found": 49,
+  "mesons": 49,
+  "baryons": 0,
+  "larger_clusters": 0,
+  "avg_ensemble_size": 2.0,
+  "avg_sync_strength": 4148.577290058329
+}

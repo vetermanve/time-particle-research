@@ -1,0 +1,14 @@
+{
+  "total_threads": 2000,
+  "sync_edges": 19885,
+  "ensembles_found": 100,
+  "mesons": 0,
+  "baryons": 100,
+  "clusters": 0,
+  "stable_ensembles": 100,
+  "avg_mass": 123.27377945230499,
+  "avg_stability": 0.7998084643598402,
+  "connected_components": 1,
+  "largest_component": 2000,
+  "avg_component_size": 2000.0
+}

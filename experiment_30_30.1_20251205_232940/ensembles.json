@@ -1,0 +1,786 @@
+[
+  {
+    "ensemble_id": 1,
+    "size": 2,
+    "thread_ids": [
+      9,
+      114
+    ],
+    "avg_sync_strength": 2962.3578244207847,
+    "coherence": 2962.3578244207847,
+    "stability": 1.0,
+    "mass": 35102255.51962818,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 2,
+    "size": 2,
+    "thread_ids": [
+      14,
+      191
+    ],
+    "avg_sync_strength": 1270.4289038232296,
+    "coherence": 1270.4289038232296,
+    "stability": 1.0,
+    "mass": 6455958.398677971,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 4,
+    "size": 2,
+    "thread_ids": [
+      17,
+      178
+    ],
+    "avg_sync_strength": 4703.239776548898,
+    "coherence": 4703.239776548898,
+    "stability": 1.0,
+    "mass": 88481857.5828469,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 5,
+    "size": 2,
+    "thread_ids": [
+      22,
+      47
+    ],
+    "avg_sync_strength": 1805.0343596697664,
+    "coherence": 1805.0343596697664,
+    "stability": 1.0,
+    "mass": 13032596.158353776,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 6,
+    "size": 2,
+    "thread_ids": [
+      26,
+      101
+    ],
+    "avg_sync_strength": 48423.99336729784,
+    "coherence": 48423.99336729784,
+    "stability": 1.0,
+    "mass": 9379532534.54442,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 8,
+    "size": 2,
+    "thread_ids": [
+      38,
+      373
+    ],
+    "avg_sync_strength": 1443.7945431599435,
+    "coherence": 1443.7945431599435,
+    "stability": 1.0,
+    "mass": 8338170.731433719,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 10,
+    "size": 2,
+    "thread_ids": [
+      44,
+      217
+    ],
+    "avg_sync_strength": 8595.05980214949,
+    "coherence": 8595.05980214949,
+    "stability": 1.0,
+    "mass": 295500212.0101041,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 12,
+    "size": 2,
+    "thread_ids": [
+      46,
+      140
+    ],
+    "avg_sync_strength": 1595.4072447250608,
+    "coherence": 1595.4072447250608,
+    "stability": 1.0,
+    "mass": 10181297.10608484,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 13,
+    "size": 2,
+    "thread_ids": [
+      52,
+      300
+    ],
+    "avg_sync_strength": 1933.1569379053292,
+    "coherence": 1933.1569379053292,
+    "stability": 1.0,
+    "mass": 14948382.986286035,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 14,
+    "size": 2,
+    "thread_ids": [
+      54,
+      199
+    ],
+    "avg_sync_strength": 2224.1341125860695,
+    "coherence": 2224.1341125860695,
+    "stability": 1.0,
+    "mass": 19787090.20307609,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 15,
+    "size": 2,
+    "thread_ids": [
+      55,
+      83
+    ],
+    "avg_sync_strength": 2026.3657460128215,
+    "coherence": 2026.3657460128215,
+    "stability": 1.0,
+    "mass": 16424632.546456395,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 16,
+    "size": 2,
+    "thread_ids": [
+      56,
+      106
+    ],
+    "avg_sync_strength": 1746.467724091328,
+    "coherence": 1746.467724091328,
+    "stability": 1.0,
+    "mass": 12200598.04517097,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 18,
+    "size": 2,
+    "thread_ids": [
+      65,
+      189
+    ],
+    "avg_sync_strength": 2493.703659321056,
+    "coherence": 2493.703659321056,
+    "stability": 1.0,
+    "mass": 24874231.7620449,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 20,
+    "size": 2,
+    "thread_ids": [
+      69,
+      494
+    ],
+    "avg_sync_strength": 1119.6938310221542,
+    "coherence": 1119.6938310221542,
+    "stability": 1.0,
+    "mass": 5014857.100916274,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 22,
+    "size": 2,
+    "thread_ids": [
+      84,
+      427
+    ],
+    "avg_sync_strength": 1594.980202033074,
+    "coherence": 1594.980202033074,
+    "stability": 1.0,
+    "mass": 10175847.379509863,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 23,
+    "size": 2,
+    "thread_ids": [
+      92,
+      251
+    ],
+    "avg_sync_strength": 1153.6319650828173,
+    "coherence": 1153.6319650828173,
+    "stability": 1.0,
+    "mass": 5323466.84344337,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 24,
+    "size": 2,
+    "thread_ids": [
+      95,
+      122
+    ],
+    "avg_sync_strength": 3925.1164499745237,
+    "coherence": 3925.1164499745237,
+    "stability": 1.0,
+    "mass": 61626156.58344243,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 25,
+    "size": 2,
+    "thread_ids": [
+      97,
+      237
+    ],
+    "avg_sync_strength": 11223.18946761233,
+    "coherence": 11223.18946761233,
+    "stability": 1.0,
+    "mass": 503839927.30369735,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 28,
+    "size": 2,
+    "thread_ids": [
+      117,
+      392
+    ],
+    "avg_sync_strength": 1384.8950212995778,
+    "coherence": 1384.8950212995778,
+    "stability": 1.0,
+    "mass": 7671736.880081433,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 29,
+    "size": 2,
+    "thread_ids": [
+      123,
+      393
+    ],
+    "avg_sync_strength": 7028.231185025009,
+    "coherence": 7028.231185025009,
+    "stability": 1.0,
+    "mass": 197584134.36063215,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 30,
+    "size": 2,
+    "thread_ids": [
+      134,
+      280
+    ],
+    "avg_sync_strength": 1013.6988892156554,
+    "coherence": 1013.6988892156554,
+    "stability": 1.0,
+    "mass": 4110341.7519882144,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 31,
+    "size": 2,
+    "thread_ids": [
+      135,
+      412
+    ],
+    "avg_sync_strength": 2841.8115093822894,
+    "coherence": 2841.8115093822894,
+    "stability": 1.0,
+    "mass": 32303570.619430583,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 32,
+    "size": 2,
+    "thread_ids": [
+      146,
+      249
+    ],
+    "avg_sync_strength": 3328.890059521883,
+    "coherence": 3328.890059521883,
+    "stability": 1.0,
+    "mass": 44326036.11353442,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 34,
+    "size": 2,
+    "thread_ids": [
+      157,
+      278
+    ],
+    "avg_sync_strength": 1579.4882643583564,
+    "coherence": 1579.4882643583564,
+    "stability": 1.0,
+    "mass": 9979132.708983094,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 35,
+    "size": 2,
+    "thread_ids": [
+      158,
+      276
+    ],
+    "avg_sync_strength": 3065.0305890815503,
+    "coherence": 3065.0305890815503,
+    "stability": 1.0,
+    "mass": 37577650.04802238,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 36,
+    "size": 2,
+    "thread_ids": [
+      166,
+      197
+    ],
+    "avg_sync_strength": 1571.2474624542401,
+    "coherence": 1571.2474624542401,
+    "stability": 1.0,
+    "mass": 9875274.353075555,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 37,
+    "size": 2,
+    "thread_ids": [
+      169,
+      438
+    ],
+    "avg_sync_strength": 2489.7223321172387,
+    "coherence": 2489.7223321172387,
+    "stability": 1.0,
+    "mass": 24794869.16417321,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 38,
+    "size": 2,
+    "thread_ids": [
+      184,
+      330
+    ],
+    "avg_sync_strength": 1593.2815165749194,
+    "coherence": 1593.2815165749194,
+    "stability": 1.0,
+    "mass": 10154183.9642371,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 39,
+    "size": 2,
+    "thread_ids": [
+      192,
+      212
+    ],
+    "avg_sync_strength": 1882.607068702352,
+    "coherence": 1882.607068702352,
+    "stability": 1.0,
+    "mass": 14176837.50051225,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 40,
+    "size": 2,
+    "thread_ids": [
+      207,
+      417
+    ],
+    "avg_sync_strength": 3516.5362662967786,
+    "coherence": 3516.5362662967786,
+    "stability": 1.0,
+    "mass": 49464109.24872196,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 41,
+    "size": 2,
+    "thread_ids": [
+      215,
+      398
+    ],
+    "avg_sync_strength": 16463.338105138377,
+    "coherence": 16463.338105138377,
+    "stability": 1.0,
+    "mass": 1084166006.256405,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 42,
+    "size": 2,
+    "thread_ids": [
+      226,
+      332
+    ],
+    "avg_sync_strength": 2008.9702194138206,
+    "coherence": 2008.9702194138206,
+    "stability": 1.0,
+    "mass": 16143845.369966459,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 44,
+    "size": 2,
+    "thread_ids": [
+      240,
+      452
+    ],
+    "avg_sync_strength": 1221.3303967072882,
+    "coherence": 1221.3303967072882,
+    "stability": 1.0,
+    "mass": 5966591.751684728,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 46,
+    "size": 2,
+    "thread_ids": [
+      245,
+      470
+    ],
+    "avg_sync_strength": 3282.493780082338,
+    "coherence": 3282.493780082338,
+    "stability": 1.0,
+    "mass": 43099061.66511695,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 47,
+    "size": 2,
+    "thread_ids": [
+      247,
+      450
+    ],
+    "avg_sync_strength": 2339.9338068096754,
+    "coherence": 2339.9338068096754,
+    "stability": 1.0,
+    "mass": 21901160.881003276,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 48,
+    "size": 2,
+    "thread_ids": [
+      250,
+      481
+    ],
+    "avg_sync_strength": 2263.3934688045383,
+    "coherence": 2263.3934688045383,
+    "stability": 1.0,
+    "mass": 20491799.978508163,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 49,
+    "size": 2,
+    "thread_ids": [
+      261,
+      411
+    ],
+    "avg_sync_strength": 3208.3824875737632,
+    "coherence": 3208.3824875737632,
+    "stability": 1.0,
+    "mass": 41174872.74628004,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 50,
+    "size": 2,
+    "thread_ids": [
+      269,
+      275
+    ],
+    "avg_sync_strength": 13793.758165757034,
+    "coherence": 13793.758165757034,
+    "stability": 1.0,
+    "mass": 761071057.3415554,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 51,
+    "size": 2,
+    "thread_ids": [
+      272,
+      437
+    ],
+    "avg_sync_strength": 4466.108107424816,
+    "coherence": 4466.108107424816,
+    "stability": 1.0,
+    "mass": 79784486.50882268,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 52,
+    "size": 2,
+    "thread_ids": [
+      273,
+      282
+    ],
+    "avg_sync_strength": 3806.17472985359,
+    "coherence": 3806.17472985359,
+    "stability": 1.0,
+    "mass": 57947864.2967042,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 53,
+    "size": 2,
+    "thread_ids": [
+      292,
+      340
+    ],
+    "avg_sync_strength": 1318.6350560403944,
+    "coherence": 1318.6350560403944,
+    "stability": 1.0,
+    "mass": 6955193.644074616,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 54,
+    "size": 2,
+    "thread_ids": [
+      295,
+      443
+    ],
+    "avg_sync_strength": 1029.8801563815812,
+    "coherence": 1029.8801563815812,
+    "stability": 1.0,
+    "mass": 4242612.5460342,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 55,
+    "size": 2,
+    "thread_ids": [
+      305,
+      419
+    ],
+    "avg_sync_strength": 4082.920889425577,
+    "coherence": 4082.920889425577,
+    "stability": 1.0,
+    "mass": 66680971.957230985,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 56,
+    "size": 2,
+    "thread_ids": [
+      314,
+      480
+    ],
+    "avg_sync_strength": 2007.1946097289997,
+    "coherence": 2007.1946097289997,
+    "stability": 1.0,
+    "mass": 16115320.805300606,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 57,
+    "size": 2,
+    "thread_ids": [
+      336,
+      492
+    ],
+    "avg_sync_strength": 1519.2793848441495,
+    "coherence": 1519.2793848441495,
+    "stability": 1.0,
+    "mass": 9232839.39684967,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 59,
+    "size": 2,
+    "thread_ids": [
+      341,
+      424
+    ],
+    "avg_sync_strength": 1073.0830903770118,
+    "coherence": 1073.0830903770118,
+    "stability": 1.0,
+    "mass": 4606029.275412312,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 61,
+    "size": 2,
+    "thread_ids": [
+      401,
+      442
+    ],
+    "avg_sync_strength": 5625.901821995613,
+    "coherence": 5625.901821995613,
+    "stability": 1.0,
+    "mass": 126603085.24293424,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 62,
+    "size": 2,
+    "thread_ids": [
+      420,
+      489
+    ],
+    "avg_sync_strength": 1084.7470665179055,
+    "coherence": 1084.7470665179055,
+    "stability": 1.0,
+    "mass": 4706704.793276805,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  },
+  {
+    "ensemble_id": 63,
+    "size": 2,
+    "thread_ids": [
+      466,
+      495
+    ],
+    "avg_sync_strength": 1149.5657885152839,
+    "coherence": 1149.5657885152839,
+    "stability": 1.0,
+    "mass": 5286006.008499065,
+    "charge": 0.0,
+    "spin": 0.0,
+    "color": "N",
+    "lifetime": Infinity
+  }
+]

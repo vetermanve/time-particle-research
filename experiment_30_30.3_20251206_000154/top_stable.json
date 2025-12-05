@@ -1,0 +1,362 @@
+[
+  {
+    "ensemble_id": 65,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      96,
+      1072,
+      1577
+    ],
+    "avg_sync_strength": 0.7716062264569906,
+    "coherence": 0.9086424905827962,
+    "stability": 0.8584223459625391,
+    "mass": 10.0,
+    "charge": -1.0,
+    "spin": 0.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 20,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      31,
+      1855,
+      339
+    ],
+    "avg_sync_strength": 0.7690947229408077,
+    "coherence": 0.907637889176323,
+    "stability": 0.854974272702966,
+    "mass": 93.86785431921996,
+    "charge": -1.0,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 5,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      11,
+      721,
+      1556
+    ],
+    "avg_sync_strength": 0.7684980540939952,
+    "coherence": 0.9073992216375981,
+    "stability": 0.8499920656899632,
+    "mass": 10.0,
+    "charge": 0.6666666666666666,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 64,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      95,
+      1272,
+      672
+    ],
+    "avg_sync_strength": 0.7629970043115706,
+    "coherence": 0.9051988017246282,
+    "stability": 0.8467274250037203,
+    "mass": 279.74258667474544,
+    "charge": 0.6666666666666666,
+    "spin": 0.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 77,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      113,
+      670,
+      875
+    ],
+    "avg_sync_strength": 0.7844335948156015,
+    "coherence": 0.9137734379262406,
+    "stability": 0.846117357620675,
+    "mass": 10.0,
+    "charge": -1.0,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 90,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      130,
+      1944,
+      527
+    ],
+    "avg_sync_strength": 0.7533379416199795,
+    "coherence": 0.9013351766479918,
+    "stability": 0.840541024641036,
+    "mass": 217.4847762792191,
+    "charge": -0.6666666666666666,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 82,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      119,
+      908,
+      762
+    ],
+    "avg_sync_strength": 0.7447506996982671,
+    "coherence": 0.8979002798793068,
+    "stability": 0.8404710440762793,
+    "mass": 21.11533130305787,
+    "charge": 1.0,
+    "spin": 0.5,
+    "color": "R",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 31,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      51,
+      724,
+      1755
+    ],
+    "avg_sync_strength": 0.7578378889260482,
+    "coherence": 0.9031351555704192,
+    "stability": 0.8404055662616524,
+    "mass": 10.0,
+    "charge": 0.0,
+    "spin": 1.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 71,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      107,
+      716,
+      923
+    ],
+    "avg_sync_strength": 0.7286211856613768,
+    "coherence": 0.8914484742645508,
+    "stability": 0.8361247560629567,
+    "mass": 10.0,
+    "charge": 0.6666666666666666,
+    "spin": 1.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 49,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      76,
+      160,
+      1545
+    ],
+    "avg_sync_strength": 0.7557816599491353,
+    "coherence": 0.902312663979654,
+    "stability": 0.8348401742666296,
+    "mass": 13.740583601965284,
+    "charge": 0.0,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 57,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      85,
+      1974,
+      359
+    ],
+    "avg_sync_strength": 0.7387444722551791,
+    "coherence": 0.8954977889020717,
+    "stability": 0.833919716276379,
+    "mass": 283.0774380534793,
+    "charge": 0.0,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 99,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      152,
+      1738,
+      329
+    ],
+    "avg_sync_strength": 0.7866719463045588,
+    "coherence": 0.9146687785218235,
+    "stability": 0.8321875500587987,
+    "mass": 287.92106639475185,
+    "charge": 0.0,
+    "spin": 0.5,
+    "color": "R",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 3,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      7,
+      1593,
+      427
+    ],
+    "avg_sync_strength": 0.7375122681359972,
+    "coherence": 0.8950049072543989,
+    "stability": 0.8307246075910849,
+    "mass": 98.20867018351372,
+    "charge": 0.0,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 40,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      63,
+      198,
+      874
+    ],
+    "avg_sync_strength": 0.7199890598964984,
+    "coherence": 0.8879956239585993,
+    "stability": 0.8282926868757992,
+    "mass": 36.46886792816106,
+    "charge": -0.6666666666666666,
+    "spin": 0.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 50,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      77,
+      1866,
+      1479
+    ],
+    "avg_sync_strength": 0.7605667855532053,
+    "coherence": 0.9042267142212821,
+    "stability": 0.8282499692155388,
+    "mass": 22.487209162813258,
+    "charge": -1.0,
+    "spin": 0.5,
+    "color": "G",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 25,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      39,
+      1605,
+      1190
+    ],
+    "avg_sync_strength": 0.6994196370825541,
+    "coherence": 0.8797678548330217,
+    "stability": 0.828193147416821,
+    "mass": 101.53031207039373,
+    "charge": -1.0,
+    "spin": 0.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 97,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      145,
+      194,
+      505
+    ],
+    "avg_sync_strength": 0.7108509487787679,
+    "coherence": 0.8843403795115071,
+    "stability": 0.8241753000755819,
+    "mass": 109.77468805025995,
+    "charge": 1.0,
+    "spin": 0.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 69,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      104,
+      1591,
+      1456
+    ],
+    "avg_sync_strength": 0.681335393437328,
+    "coherence": 0.8725341573749312,
+    "stability": 0.8238832499652587,
+    "mass": 186.44008706944615,
+    "charge": -0.6666666666666666,
+    "spin": 0.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 100,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      153,
+      1747,
+      1478
+    ],
+    "avg_sync_strength": 0.717170616995479,
+    "coherence": 0.8868682467981917,
+    "stability": 0.8228108899809303,
+    "mass": 157.91417765333824,
+    "charge": 0.0,
+    "spin": 0.5,
+    "color": "B",
+    "is_stable": "True"
+  },
+  {
+    "ensemble_id": 73,
+    "type": "baryon",
+    "size": 3,
+    "thread_ids": [
+      109,
+      414,
+      917
+    ],
+    "avg_sync_strength": 0.7205832774726773,
+    "coherence": 0.8882333109890709,
+    "stability": 0.8218972118007354,
+    "mass": 131.87924717094958,
+    "charge": 0.6666666666666666,
+    "spin": 0.5,
+    "color": "R",
+    "is_stable": "True"
+  }
+]
