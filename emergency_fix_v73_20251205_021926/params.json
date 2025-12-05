@@ -1,0 +1,18 @@
+{
+  "base_mass_u": 2.203806,
+  "base_mass_d": 4.58302,
+  "base_mass_s": 9.166,
+  "freq_u": 0.956359,
+  "freq_d": 0.868115,
+  "freq_s": 0.7,
+  "amp_u": 1.032476,
+  "amp_d": 0.877773,
+  "amp_s": 0.75,
+  "coupling_proton": 1.613565,
+  "coupling_neutron": 0.285395,
+  "coupling_meson_light": 4.273121,
+  "coupling_meson_strange": 8.0,
+  "coupling_lambda0": 1.2,
+  "phase_shift": 3.173848,
+  "scale_factor": 100.0
+}

@@ -1,0 +1,120 @@
+{
+  "model": "v7.2_distributed",
+  "timestamp": "2025-12-05T02:14:46.979451",
+  "base_parameters": {
+    "base_mass_u": 2.203806,
+    "base_mass_d": 4.58302,
+    "freq_u": 0.956359,
+    "freq_d": 0.868115,
+    "amp_u": 1.032476,
+    "amp_d": 0.877773,
+    "coupling_proton": 1.613565,
+    "coupling_neutron": 0.285395,
+    "coupling_meson_light": 4.273121,
+    "phase_shift": 3.173848,
+    "scale_factor": 100.0
+  },
+  "extended_parameters": {
+    "base_mass_u": 2.203806,
+    "base_mass_d": 4.58302,
+    "freq_u": 0.956359,
+    "freq_d": 0.868115,
+    "amp_u": 1.032476,
+    "amp_d": 0.877773,
+    "coupling_proton": 1.613565,
+    "coupling_neutron": 0.285395,
+    "coupling_meson_light": 4.273121,
+    "phase_shift": 3.173848,
+    "scale_factor": 100.0,
+    "base_mass_s": 55.0,
+    "freq_s": 0.7,
+    "amp_s": 0.75,
+    "coupling_meson_strange": 5.0,
+    "coupling_lambda0": 0.3
+  },
+  "targets": {
+    "proton": {
+      "mass": 938.272,
+      "charge": 1.0,
+      "composition": [
+        "u",
+        "u",
+        "d"
+      ]
+    },
+    "neutron": {
+      "mass": 939.565,
+      "charge": 0.0,
+      "composition": [
+        "u",
+        "d",
+        "d"
+      ]
+    },
+    "pi+": {
+      "mass": 139.57,
+      "charge": 1.0,
+      "composition": [
+        "u",
+        "anti_d"
+      ]
+    },
+    "pi0": {
+      "mass": 134.9768,
+      "charge": 0.0,
+      "composition": [
+        "u",
+        "anti_u"
+      ]
+    },
+    "pi-": {
+      "mass": 139.57,
+      "charge": -1.0,
+      "composition": [
+        "d",
+        "anti_u"
+      ]
+    },
+    "k+": {
+      "mass": 493.677,
+      "charge": 1.0,
+      "composition": [
+        "u",
+        "anti_s"
+      ]
+    },
+    "k0": {
+      "mass": 497.611,
+      "charge": 0.0,
+      "composition": [
+        "d",
+        "anti_s"
+      ]
+    },
+    "k-": {
+      "mass": 493.677,
+      "charge": -1.0,
+      "composition": [
+        "s",
+        "anti_u"
+      ]
+    },
+    "k0_bar": {
+      "mass": 497.611,
+      "charge": 0.0,
+      "composition": [
+        "s",
+        "anti_d"
+      ]
+    },
+    "lambda0": {
+      "mass": 1115.683,
+      "charge": 0.0,
+      "composition": [
+        "u",
+        "d",
+        "s"
+      ]
+    }
+  }
+}

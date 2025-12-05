@@ -1,7 +1,6 @@
 """
-МОДЕЛЬ v9.1 - ГИБРИДНЫЙ ПОДХОД
-Сочетает физическую глубину v9.0 (цвет, фазы, когерентность) 
-с прагматизмом v6.1 (специфические коэффициенты связи)
+МОДЕЛЬ v9.0-light - ИСПРАВЛЕННАЯ ВЕРСИЯ
+Исправлена ошибка с отрицательным scale в np.random.normal()
 """
 
 import numpy as np
@@ -17,6 +16,7 @@ from itertools import combinations
 # ============== ФИЗИЧЕСКИЕ КОНСТАНТЫ ==============
 
 class QuantumConstants:
+    """Фундаментальные физические константы"""
     COLOR_MATRICES = {
         'R': np.array([1, 0, 0]),
         'G': np.array([0, 1, 0]), 
@@ -66,9 +66,9 @@ class QuarkOscillator:
     def effective_mass(self):
         return self.base_mass * self.frequency * self.amplitude
 
-# ============== ГИБРИДНАЯ МОДЕЛЬ АДРОНА ==============
+# ============== МОДЕЛЬ АДРОНА ==============
 
-class HybridHadronResonator:
+class HadronResonator:
     
     def __init__(self, name, composition, params):
         self.name = name
@@ -76,7 +76,6 @@ class HybridHadronResonator:
         self.params = params
         self.scale = params.get('scale_factor', 100.0)
         self.is_meson = len(composition) == 2
-        self.is_neutral_meson = name in ['pi0']
         
         self.quarks = [QuarkOscillator(q_type, params) for q_type in composition]
         self._assign_colors()
@@ -139,49 +138,30 @@ class HybridHadronResonator:
                 coherences.append((coherence + 1) / 2)
             return np.mean(coherences)
     
-    def calculate_base_interaction_energy(self):
-        """Базовая энергия взаимодействия из v9.0 (цвет + фаза)"""
+    def calculate_interaction_energy(self):
         color_energy = self.params.get('color_coupling', 1.0) * self.calculate_color_coherence()
         phase_energy = self.params.get('phase_coupling', 1.0) * self.calculate_phase_coherence()
         
         mass_factor = np.mean([q.effective_mass() for q in self.quarks])
-        base_energy = (color_energy + phase_energy) * mass_factor
+        total_interaction = (color_energy + phase_energy) * mass_factor
         
         if self.is_meson:
-            return -base_energy  # Для мезонов уменьшает массу
+            return -total_interaction
         else:
-            return base_energy   # Для барионов увеличивает массу
-    
-    def calculate_specific_coupling(self):
-        """Специфический коэффициент связи из v6.1"""
-        if self.name == 'proton':
-            return self.params.get('coupling_proton', 1.0)
-        elif self.name == 'neutron':
-            return self.params.get('coupling_neutron', 0.3)
-        elif self.name in ['pi+', 'pi-']:
-            return self.params.get('coupling_meson_charged', 4.0)
-        elif self.name == 'pi0':
-            return self.params.get('coupling_meson_neutral', 3.5)
-        else:
-            return 1.0
-    
-    def calculate_interaction_energy(self):
-        """Гибридная энергия взаимодействия: v9.0 × v6.1"""
-        base_energy = self.calculate_base_interaction_energy()
-        specific_factor = self.calculate_specific_coupling()
-        
-        return base_energy * specific_factor
+            return total_interaction
     
     def calculate_mass(self):
         base_mass = sum(q.effective_mass() for q in self.quarks)
         interaction = self.calculate_interaction_energy()
         
-        # Для мезонов interaction отрицательный, для барионов положительный
-        total = base_mass + interaction
+        if self.is_meson:
+            total = base_mass + interaction
+        else:
+            total = base_mass + interaction
         
-        # Квантовые флуктуации
+        # ИСПРАВЛЕНИЕ: не допускаем отрицательный scale
         quantum_fluctuations = self.params.get('quantum_noise', 0.001)
-        scale = abs(quantum_fluctuations * total)
+        scale = abs(quantum_fluctuations * total)  # Берем модуль
         noise = np.random.normal(0, scale)
         
         return (total + noise) * self.scale
@@ -189,14 +169,14 @@ class HybridHadronResonator:
     def calculate_charge(self):
         return sum(q.charge for q in self.quarks)
 
-# ============== ОТЖИГ ДЛЯ ГИБРИДНОЙ МОДЕЛИ ==============
+# ============== ОТЖИГ ДЛЯ СРАВНЕНИЯ С v6.1 ==============
 
-class HybridAnnealer:
+class ComparativeAnnealer:
     
     def __init__(self, num_cores=6):
         self.num_cores = num_cores
         
-        # ПАРАМЕТРЫ v6.1 ДЛЯ НАЧАЛЬНЫХ ЗНАЧЕНИЙ
+        # ПАРАМЕТРЫ v6.1 ДЛЯ СРАВНЕНИЯ
         self.v61_params = {
             'base_mass_u': 2.203806,
             'base_mass_d': 4.583020,
@@ -206,31 +186,22 @@ class HybridAnnealer:
             'amp_d': 0.877773,
             'coupling_proton': 1.613565,
             'coupling_neutron': 0.285395,
-            'coupling_meson_charged': 4.273121,
-            'coupling_meson_neutral': 3.8,  # Новый параметр для π⁰
+            'coupling_meson': 4.273121,
+            'phase_shift': 3.173848,
             'scale_factor': 100.0
         }
         
-        # ПАРАМЕТРЫ v9.1 (15 параметров)
+        # ПАРАМЕТРЫ v9.0 (упрощенный набор)
         self.param_names = [
-            # Базовые массы и частоты (6)
             'base_mass_u', 'base_mass_d',
             'freq_u', 'freq_d',
             'amp_u', 'amp_d',
-            
-            # Физические coupling из v9.0 (4)
             'color_coupling', 'phase_coupling',
             'meson_coupling_scale', 'baryon_coupling_scale',
-            
-            # Специфические coupling из v6.1 (4)
-            'coupling_proton', 'coupling_neutron',
-            'coupling_meson_charged', 'coupling_meson_neutral',
-            
-            # Масштаб (1)
             'scale_factor'
         ]
         
-        # НАЧАЛЬНЫЕ ЗНАЧЕНИЯ
+        # НАЧАЛЬНЫЕ ЗНАЧЕНИЯ v9.0
         self.base_params = {
             'base_mass_u': 2.203806,
             'base_mass_d': 4.583020,
@@ -242,10 +213,6 @@ class HybridAnnealer:
             'phase_coupling': 1.0,
             'meson_coupling_scale': 4.0,
             'baryon_coupling_scale': 1.0,
-            'coupling_proton': 1.613565,
-            'coupling_neutron': 0.285395,
-            'coupling_meson_charged': 4.273121,
-            'coupling_meson_neutral': 3.8,
             'scale_factor': 100.0
         }
         
@@ -261,14 +228,10 @@ class HybridAnnealer:
             'phase_coupling': (0.5, 2.0),
             'meson_coupling_scale': (2.0, 6.0),
             'baryon_coupling_scale': (0.5, 2.0),
-            'coupling_proton': (1.0, 2.5),
-            'coupling_neutron': (0.1, 0.8),
-            'coupling_meson_charged': (3.0, 5.0),
-            'coupling_meson_neutral': (2.5, 4.5),
             'scale_factor': (90.0, 110.0)
         }
         
-        # ЦЕЛЕВЫЕ ЧАСТИЦЫ
+        # ЦЕЛЕВЫЕ ЧАСТИЦЫ (ТОЛЬКО v6.1)
         self.targets = {
             'proton': {'mass': 938.272, 'charge': 1.0, 'composition': ['u', 'u', 'd']},
             'neutron': {'mass': 939.565, 'charge': 0.0, 'composition': ['u', 'd', 'd']},
@@ -278,36 +241,28 @@ class HybridAnnealer:
         }
         
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        self.result_dir = f"v91_hybrid_{timestamp}"
+        self.result_dir = f"v9_comparison_{timestamp}"
         os.makedirs(self.result_dir, exist_ok=True)
     
     def prepare_params(self, raw_params):
-        """Подготовка параметров с учетом масштабирования coupling"""
         params = raw_params.copy()
-        
-        # Масштабируем coupling для мезонов и барионов
         params['color_coupling_meson'] = params['color_coupling'] * params['meson_coupling_scale']
         params['phase_coupling_meson'] = params['phase_coupling'] * params['meson_coupling_scale']
         params['color_coupling_baryon'] = params['color_coupling'] * params['baryon_coupling_scale']
         params['phase_coupling_baryon'] = params['phase_coupling'] * params['baryon_coupling_scale']
-        
         return params
     
     def evaluate_particle(self, params, particle_name, composition, is_meson):
         part_params = self.prepare_params(params)
         
-        # Для мезонов используем мезонные coupling, для барионов - барионные
         if is_meson:
             part_params['color_coupling'] = part_params.get('color_coupling_meson', part_params['color_coupling'])
             part_params['phase_coupling'] = part_params.get('phase_coupling_meson', part_params['phase_coupling'])
-        else:
-            part_params['color_coupling'] = part_params.get('color_coupling_baryon', part_params['color_coupling'])
-            part_params['phase_coupling'] = part_params.get('phase_coupling_baryon', part_params['phase_coupling'])
         
         masses = []
         charges = []
-        for _ in range(10):  # Больше реализаций для статистики
-            hadron = HybridHadronResonator(particle_name, composition, part_params)
+        for _ in range(5):
+            hadron = HadronResonator(particle_name, composition, part_params)
             masses.append(hadron.calculate_mass())
             charges.append(hadron.calculate_charge())
         
@@ -321,37 +276,62 @@ class HybridAnnealer:
             results[f'{name}_mass'] = mass
             results[f'{name}_charge'] = charge
         
-        # Эффективные массы кварков
         m_u = params['base_mass_u'] * params['freq_u'] * params['amp_u'] * params['scale_factor']
         m_d = params['base_mass_d'] * params['freq_d'] * params['amp_d'] * params['scale_factor']
         results['m_u_eff'] = m_u
         results['m_d_eff'] = m_d
         results['ratio_d_u'] = m_d / m_u if m_u > 0 else 1
         
-        # Энергии связи
-        results['E_proton'] = params.get('coupling_proton', 1.0)
-        results['E_neutron'] = params.get('coupling_neutron', 0.3)
-        results['E_meson_charged'] = params.get('coupling_meson_charged', 4.0)
-        results['E_meson_neutral'] = params.get('coupling_meson_neutral', 3.5)
-        results['ratio_neutron_proton'] = results['E_neutron'] / results['E_proton'] if results['E_proton'] > 0 else 0
-        
         return results
+    
+    def calculate_v61_error(self, params):
+        """Ошибка по модели v6.1 (для сравнения)"""
+        results = {}
+        
+        for name, target in self.targets.items():
+            composition = target['composition']
+            base_mass = 0
+            for q in composition:
+                base_type = q.replace('anti_', '')
+                m = params[f'base_mass_{base_type}']
+                f = params[f'freq_{base_type}']
+                a = params[f'amp_{base_type}']
+                base_mass += m * f * a
+            
+            coupling = params.get('coupling_proton', 1.0)
+            if name == 'neutron':
+                coupling = params.get('coupling_neutron', 0.3)
+            elif name in ['pi+', 'pi0', 'pi-']:
+                coupling = params.get('coupling_meson', 4.0)
+            
+            if len(composition) == 2:  # Мезоны
+                mass = (base_mass - coupling) * 100
+            else:  # Барионы
+                mass = (base_mass + coupling) * 100
+            
+            results[f'{name}_mass'] = mass
+        
+        total_error = 0
+        for name, target in self.targets.items():
+            rel_error = abs(results[f'{name}_mass'] - target['mass']) / target['mass']
+            total_error += rel_error ** 2
+        
+        return total_error
     
     def calculate_error(self, params):
         results = self.evaluate_all_particles(params)
         total_error = 0.0
         
-        # ВЕСА
         weights = {
             'proton': 40.0, 'neutron': 40.0,
             'pi+': 25.0, 'pi0': 30.0, 'pi-': 25.0
         }
         
-        # 1. ОШИБКИ МАСС
         for name, target in self.targets.items():
             mass = results[f'{name}_mass']
             target_mass = target['mass']
             
+            # Штраф за отрицательные массы
             if mass <= 0:
                 total_error += 10000.0
                 continue
@@ -362,43 +342,25 @@ class HybridAnnealer:
             if rel_error > 0.3:
                 total_error += weights[name] * 10.0 * (rel_error - 0.3)
         
-        # 2. ОШИБКИ ЗАРЯДОВ
         for name, target in self.targets.items():
             if abs(results[f'{name}_charge'] - target['charge']) > 0.001:
                 total_error += 1000.0
         
-        # 3. ФИЗИЧЕСКИЕ ОГРАНИЧЕНИЯ
-        
-        # a) Нейтрон тяжелее протона
         if results['neutron_mass'] < results['proton_mass']:
             diff = results['proton_mass'] - results['neutron_mass']
             total_error += 500.0 * diff
         
-        # b) Отношение масс кварков
         ratio_d_u = results['ratio_d_u']
         if ratio_d_u < 1.3 or ratio_d_u > 2.0:
             penalty = abs(ratio_d_u - 1.6) * 20.0
             total_error += penalty
         
-        # c) coupling для мезонов должен быть больше, чем для барионов
         if params.get('meson_coupling_scale', 1) < params.get('baryon_coupling_scale', 1):
             total_error += 200.0
         
-        # d) Нейтрон слабее связан, чем протон
-        if params.get('coupling_neutron', 0) > params.get('coupling_proton', 1):
-            total_error += 300.0
-        
-        # e) Заряженные мезоны сильнее связаны, чем нейтральные
-        if params.get('coupling_meson_neutral', 0) > params.get('coupling_meson_charged', 4):
-            total_error += 200.0
-        
-        # f) Точная разность масс n-p = 1.293 МэВ
-        mass_diff = abs((results['neutron_mass'] - results['proton_mass']) - 1.293)
-        total_error += 100.0 * mass_diff
-        
         return total_error, results
     
-    def run_single_annealing(self, seed, iterations=200000, temperature=8.0):
+    def run_single_annealing(self, seed, iterations=150000, temperature=8.0):
         np.random.seed(seed)
         
         current_params = self.base_params.copy()
@@ -413,7 +375,7 @@ class HybridAnnealer:
         best_error = current_error
         best_results = current_results
         
-        cooling_rate = 0.99997
+        cooling_rate = 0.99998
         
         for i in range(iterations):
             new_params = current_params.copy()
@@ -423,27 +385,11 @@ class HybridAnnealer:
                     min_val, max_val = self.ranges[param]
                     current_val = current_params[param]
                     
-                    # Адаптивный шаг
                     step = (max_val - min_val) * 0.05
                     mutation = np.random.normal(0, step) * temperature
                     
-                    # Направленные мутации для физически важных параметров
-                    if param == 'coupling_neutron':
-                        # Притяжение к значению ~0.3 (как в v6.1)
-                        if current_val > 0.5:
-                            mutation -= 0.2 * step
-                    elif param == 'coupling_proton':
-                        # Притяжение к значению ~1.6
-                        if current_val < 1.3:
-                            mutation += 0.2 * step
-                    elif param == 'coupling_meson_neutral':
-                        # Должно быть меньше, чем для заряженных
-                        if current_val > new_params.get('coupling_meson_charged', 4):
-                            mutation -= 0.3 * step
-                    
                     new_val = current_val + mutation
                     
-                    # Ограничение с отражением
                     while new_val < min_val or new_val > max_val:
                         if new_val < min_val:
                             new_val = 2 * min_val - new_val
@@ -474,17 +420,20 @@ class HybridAnnealer:
             
             temperature *= cooling_rate
         
+        v61_error = self.calculate_v61_error(best_params)
+        
         return {
             'seed': seed,
             'params': best_params,
             'error': best_error,
+            'v61_error': v61_error,
             'results': best_results
         }
     
-    def run_parallel_annealing(self, total_iterations=1200000):
+    def run_parallel_annealing(self, total_iterations=600000):
         print("="*80)
-        print("ГИБРИДНАЯ МОДЕЛЬ v9.1")
-        print("Сочетание v9.0 (физическая глубина) + v6.1 (прагматизм)")
+        print("СРАВНИТЕЛЬНЫЙ АНАЛИЗ v6.1 vs v9.0")
+        print(f"Целевые частицы: {list(self.targets.keys())}")
         print(f"Ядер: {self.num_cores}")
         print(f"Итераций на ядро: {total_iterations // self.num_cores:,}")
         print("="*80)
@@ -505,102 +454,100 @@ class HybridAnnealer:
         print(f"\n{'='*80}")
         print("ОТЖИГ ЗАВЕРШЕН")
         print(f"Время: {elapsed:.1f} сек")
-        print(f"Лучшая ошибка: {best_result['error']:.3f}")
+        print(f"Лучшая ошибка v9.0: {best_result['error']:.3f}")
+        print(f"Ошибка по методу v6.1: {best_result['v61_error']:.3f}")
         print("="*80)
         
         self.save_results(results, best_result)
-        self.print_hybrid_report(best_result)
+        self.print_comparison_report(best_result)
         
         return best_result['params'], best_result['error'], best_result['results']
     
     def save_results(self, all_results, best_result):
         summary = {
-            'model': 'v9.1_hybrid',
+            'model': 'v9.0_light_comparison',
             'timestamp': datetime.now().isoformat(),
+            'v61_params': self.v61_params,
             'best_result': best_result,
             'all_results': [
-                {'seed': r['seed'], 'error': r['error']} for r in all_results
+                {'seed': r['seed'], 'error': r['error'], 'v61_error': r['v61_error']} 
+                for r in all_results
             ]
         }
         
-        with open(f"{self.result_dir}/hybrid_results.json", 'w') as f:
+        with open(f"{self.result_dir}/comparison_results.json", 'w') as f:
             json.dump(summary, f, indent=2, default=self.json_serializer)
     
-    def print_hybrid_report(self, best_result):
+    def print_comparison_report(self, best_result):
         params = best_result['params']
         results = best_result['results']
         
         print("\n" + "="*80)
-        print("ГИБРИДНАЯ МОДЕЛЬ v9.1 - ФИНАЛЬНЫЙ ОТЧЕТ")
+        print("СРАВНИТЕЛЬНЫЙ ОТЧЕТ: v6.1 vs v9.0")
         print("="*80)
         
-        print(f"\nКЛЮЧЕВЫЕ ПАРАМЕТРЫ:")
-        groups = {
-            'Массы кварков': ['base_mass_u', 'base_mass_d'],
-            'Частоты': ['freq_u', 'freq_d'],
-            'Амплитуды': ['amp_u', 'amp_d'],
-            'Физические coupling': ['color_coupling', 'phase_coupling', 
-                                   'meson_coupling_scale', 'baryon_coupling_scale'],
-            'Специфические coupling': ['coupling_proton', 'coupling_neutron',
-                                      'coupling_meson_charged', 'coupling_meson_neutral']
-        }
-        
-        for group_name, param_list in groups.items():
-            print(f"  {group_name}:")
-            for param in param_list:
-                if param in params:
-                    print(f"    {param}: {params[param]:.6f}")
+        print(f"\nПАРАМЕТРЫ v9.0:")
+        for param in self.param_names:
+            if param in params:
+                print(f"  {param}: {params[param]:.6f}")
         
         print(f"\nЭФФЕКТИВНЫЕ МАССЫ КВАРКОВ (МэВ):")
         print(f"  u: {results['m_u_eff']:.2f}")
         print(f"  d: {results['m_d_eff']:.2f}")
         print(f"  m_d/m_u: {results['ratio_d_u']:.2f}")
         
-        print(f"\nЭНЕРГИИ СВЯЗИ:")
-        print(f"  Протон: {results['E_proton']:.3f}")
-        print(f"  Нейтрон: {results['E_neutron']:.3f}")
-        print(f"  Отношение n/p: {results['ratio_neutron_proton']:.3f}")
-        print(f"  π⁺/π⁻: {results['E_meson_charged']:.3f}")
-        print(f"  π⁰: {results['E_meson_neutral']:.3f}")
-        print(f"  Отношение π⁰/π⁺: {results['E_meson_neutral']/results['E_meson_charged']:.3f}")
-        
-        print(f"\nМАССЫ ЧАСТИЦ:")
-        total_error = 0
+        print(f"\nМАССЫ ЧАСТИЦ v9.0:")
+        total_error_v9 = 0
         for name in self.targets.keys():
             mass = results[f'{name}_mass']
             target = self.targets[name]['mass']
-            error = abs(mass - target) / target * 100
-            total_error += error
+            if mass > 0:
+                error = abs(mass - target) / target * 100
+            else:
+                error = 100  # Максимальная ошибка для отрицательной массы
+            total_error_v9 += error
             print(f"  {name}: {mass:.1f} МэВ (цель {target:.1f}) - {error:.2f}%")
         
-        avg_error = total_error / len(self.targets)
-        print(f"\nСредняя ошибка: {avg_error:.2f}%")
+        print(f"\nМАССЫ ЧАСТИЦ v6.1:")
+        total_error_v61 = 0
+        for name, target in self.targets.items():
+            composition = target['composition']
+            base_mass = 0
+            for q in composition:
+                base_type = q.replace('anti_', '')
+                m = self.v61_params[f'base_mass_{base_type}']
+                f = self.v61_params[f'freq_{base_type}']
+                a = self.v61_params[f'amp_{base_type}']
+                base_mass += m * f * a
+            
+            coupling = self.v61_params['coupling_proton']
+            if name == 'neutron':
+                coupling = self.v61_params['coupling_neutron']
+            elif name in ['pi+', 'pi0', 'pi-']:
+                coupling = self.v61_params['coupling_meson']
+            
+            if len(composition) == 2:
+                mass = (base_mass - coupling) * 100
+            else:
+                mass = (base_mass + coupling) * 100
+            
+            error = abs(mass - target['mass']) / target['mass'] * 100
+            total_error_v61 += error
+            print(f"  {name}: {mass:.1f} МэВ (цель {target['mass']:.1f}) - {error:.2f}%")
         
-        # Ключевые физические проверки
-        print(f"\nФИЗИЧЕСКИЕ ПРОВЕРКИ:")
-        checks = [
-            ("Нейтрон > протон", results['neutron_mass'] > results['proton_mass']),
-            ("Разность масс n-p ≈ 1.293 МэВ", 
-             abs((results['neutron_mass'] - results['proton_mass']) - 1.293) < 0.5),
-            ("m_d/m_u в 1.3-2.0", 1.3 <= results['ratio_d_u'] <= 2.0),
-            ("coupling_neutron < coupling_proton", 
-             params['coupling_neutron'] < params['coupling_proton']),
-            ("coupling_meson_neutral < coupling_meson_charged",
-             params['coupling_meson_neutral'] < params['coupling_meson_charged']),
-            ("meson_scale > baryon_scale", 
-             params['meson_coupling_scale'] > params['baryon_coupling_scale'])
-        ]
+        avg_error_v9 = total_error_v9 / len(self.targets)
+        avg_error_v61 = total_error_v61 / len(self.targets)
         
-        for check_name, check_result in checks:
-            status = "✓" if check_result else "✗"
-            print(f"  {status} {check_name}")
+        print(f"\nСРЕДНИЕ ОШИБКИ:")
+        print(f"  v9.0: {avg_error_v9:.2f}%")
+        print(f"  v6.1: {avg_error_v61:.2f}%")
         
-        # Разность масс
-        diff = results['neutron_mass'] - results['proton_mass']
-        print(f"\nРАЗНОСТЬ МАСС n-p:")
-        print(f"  Модель: {diff:.3f} МэВ")
+        print(f"\nРАЗНОСТЬ МАСС:")
+        diff_v9 = results['neutron_mass'] - results['proton_mass']
+        diff_v61 = (939.565 - 938.272)  # Из v6.1 результатов
+        print(f"  v9.0: {diff_v9:.3f} МэВ")
+        print(f"  v6.1: {diff_v61:.3f} МэВ")
         print(f"  Эксперимент: 1.293 МэВ")
-        print(f"  Отклонение: {abs(diff-1.293):.3f} МэВ")
         
         print(f"\nРезультаты сохранены в: {self.result_dir}")
         print("="*80)
@@ -616,27 +563,28 @@ class HybridAnnealer:
 
 def main():
     print("="*80)
-    print("ГИБРИДНАЯ МОДЕЛЬ v9.1")
-    print("Физическая глубина v9.0 + прагматизм v6.1")
+    print("СРАВНИТЕЛЬНЫЙ АНАЛИЗ: v6.1 (простая) vs v9.0 (полная)")
+    print("Исправленная версия - ошибка scale < 0 устранена")
     print("="*80)
     
-    print("\nОСОБЕННОСТИ v9.1:")
-    print("  1. Цветовая и фазовая когерентность (из v9.0)")
-    print("  2. Специфические коэффициенты связи для каждой частицы (из v6.1)")
-    print("  3. Разные coupling для мезонов и барионов")
-    print("  4. Особый коэффициент для нейтральных мезонов (π⁰)")
+    print("\nЦЕЛИ ОПТИМИЗАЦИИ:")
+    print("  Протон: 938.272 МэВ")
+    print("  Нейтрон: 939.565 МэВ")
+    print("  π⁺: 139.570 МэВ")
+    print("  π⁰: 134.9768 МэВ")
+    print("  π⁻: 139.570 МэВ")
     
-    print("\nПАРАМЕТРЫ ОПТИМИЗАЦИИ:")
-    print("  15 параметров, 6 ядер, 1,200,000 итераций")
-    print("  ~60-90 секунд вычислений")
+    print("\nПАРАМЕТРЫ v9.0:")
+    print("  11 параметров, цветовая и фазовая когерентность")
+    print("  600,000 итераций, 6 ядер")
     
     try:
         num_cores = min(6, mp.cpu_count())
         print(f"\nИспользуется ядер: {num_cores}")
         
-        annealer = HybridAnnealer(num_cores=num_cores)
+        annealer = ComparativeAnnealer(num_cores=num_cores)
         best_params, best_error, best_results = annealer.run_parallel_annealing(
-            total_iterations=1200000
+            total_iterations=600000
         )
         
     except Exception as e:

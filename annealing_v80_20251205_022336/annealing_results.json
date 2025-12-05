@@ -1,0 +1,74 @@
+{
+  "model": "v8.0_parallel_annealing",
+  "timestamp": "2025-12-05T02:24:00.174474",
+  "best_result": {
+    "seed": 1003,
+    "error": 254.3487332487677,
+    "params": {
+      "base_mass_u": 2.203806,
+      "base_mass_d": 4.58302,
+      "freq_u": 0.956359,
+      "freq_d": 0.868115,
+      "amp_u": 1.032476,
+      "amp_d": 0.877773,
+      "coupling_proton": 1.613565,
+      "coupling_neutron": 0.285395,
+      "coupling_meson_light": 4.273121,
+      "phase_shift": 3.173848,
+      "scale_factor": 100.0,
+      "base_mass_s": 13.625134814717994,
+      "freq_s": 0.9903354964407021,
+      "amp_s": 0.9294180138855078,
+      "coupling_meson_strange": 9.981347498967384,
+      "coupling_meson_neutral": 5.272801092163539,
+      "coupling_lambda0": 0.8112507238701337
+    },
+    "results": {
+      "proton_mass": 892.016165117624,
+      "neutron_mass": 935.0935381982869,
+      "pi+_mass": 139.52535666085913,
+      "pi0_mass": 171.57536230535268,
+      "pi-_mass": 139.52535666085913,
+      "k+_mass": 473.5789407605836,
+      "k0_mass": 605.2009805079131,
+      "k-_mass": 473.5789407605836,
+      "k0_bar_mass": 605.2009805079131,
+      "lambda0_mass": 1847.9851296570876,
+      "m_u_eff": 217.60770845676484,
+      "m_d_eff": 349.22974820409434,
+      "m_s_eff": 1254.1059822005573
+    }
+  },
+  "all_results": [
+    {
+      "seed": 1000,
+      "error": 254.37627665266908,
+      "iterations": 200000
+    },
+    {
+      "seed": 1001,
+      "error": 254.41012513739366,
+      "iterations": 200000
+    },
+    {
+      "seed": 1002,
+      "error": 254.39238448811062,
+      "iterations": 200000
+    },
+    {
+      "seed": 1003,
+      "error": 254.3487332487677,
+      "iterations": 200000
+    },
+    {
+      "seed": 1004,
+      "error": 254.3868846986837,
+      "iterations": 200000
+    },
+    {
+      "seed": 1005,
+      "error": 254.37956736927813,
+      "iterations": 200000
+    }
+  ]
+}
