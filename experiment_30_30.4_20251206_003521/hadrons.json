@@ -1,0 +1,1402 @@
+[
+  {
+    "hadron_id": 1,
+    "quark_ids": [
+      2,
+      3,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3159.201631302253,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 2,
+    "quark_ids": [
+      2,
+      3,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3376.206239157466,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 3,
+    "quark_ids": [
+      2,
+      3,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3547.59496896777,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 4,
+    "quark_ids": [
+      2,
+      3,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2639.978240424226,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 5,
+    "quark_ids": [
+      2,
+      3,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3376.265451575581,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 6,
+    "quark_ids": [
+      2,
+      3,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 4139.658656330246,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 7,
+    "quark_ids": [
+      2,
+      3,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3594.5820984655356,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 8,
+    "quark_ids": [
+      2,
+      3,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3705.8970079015817,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 9,
+    "quark_ids": [
+      2,
+      3,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 2815.8992152460905,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 10,
+    "quark_ids": [
+      2,
+      3,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3191.9640440908724,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 11,
+    "quark_ids": [
+      2,
+      5,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2999.1916342919476,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 12,
+    "quark_ids": [
+      2,
+      5,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3193.337671145689,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 13,
+    "quark_ids": [
+      2,
+      5,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3364.726400955993,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 14,
+    "quark_ids": [
+      2,
+      5,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2479.9682434139213,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 15,
+    "quark_ids": [
+      2,
+      5,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3216.2554545652765,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 16,
+    "quark_ids": [
+      2,
+      5,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3956.790088318469,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 17,
+    "quark_ids": [
+      2,
+      5,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3411.7135304537587,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 18,
+    "quark_ids": [
+      2,
+      5,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3523.0284398898057,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 19,
+    "quark_ids": [
+      2,
+      5,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 2633.0306472343136,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 20,
+    "quark_ids": [
+      2,
+      5,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3009.0954760790955,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 21,
+    "quark_ids": [
+      2,
+      8,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3569.786073156525,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 22,
+    "quark_ids": [
+      2,
+      8,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 5.0,
+    "mass": 3845.445601276634,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 23,
+    "quark_ids": [
+      2,
+      8,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 4016.8343310869386,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 24,
+    "quark_ids": [
+      2,
+      8,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3050.5626822784984,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 25,
+    "quark_ids": [
+      2,
+      8,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3786.849893429854,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 26,
+    "quark_ids": [
+      2,
+      8,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 5.0,
+    "mass": 4608.898018449415,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 27,
+    "quark_ids": [
+      2,
+      8,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 4063.8214605847043,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 28,
+    "quark_ids": [
+      2,
+      8,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 5.0,
+    "mass": 4175.13637002075,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 29,
+    "quark_ids": [
+      2,
+      8,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 5.0,
+    "mass": 3285.138577365259,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 30,
+    "quark_ids": [
+      2,
+      8,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3661.2034062100406,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 31,
+    "quark_ids": [
+      2,
+      12,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2608.2375995503457,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 32,
+    "quark_ids": [
+      2,
+      12,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2403.216427510875,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 33,
+    "quark_ids": [
+      2,
+      12,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2553.181566094892,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 34,
+    "quark_ids": [
+      2,
+      12,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2089.0142086723185,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 35,
+    "quark_ids": [
+      2,
+      12,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2825.301419823674,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 36,
+    "quark_ids": [
+      2,
+      12,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3071.2372925370582,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 37,
+    "quark_ids": [
+      2,
+      12,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2594.2953044054366,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 38,
+    "quark_ids": [
+      2,
+      12,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2691.6958501619774,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 39,
+    "quark_ids": [
+      2,
+      12,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 1912.9477815884215,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 40,
+    "quark_ids": [
+      2,
+      12,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2242.0045068276054,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 41,
+    "quark_ids": [
+      2,
+      13,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2821.0866448495385,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 42,
+    "quark_ids": [
+      2,
+      13,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 2989.789111782936,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 43,
+    "quark_ids": [
+      2,
+      13,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3161.1778415932404,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 44,
+    "quark_ids": [
+      2,
+      13,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2301.863253971512,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 45,
+    "quark_ids": [
+      2,
+      13,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3038.150465122868,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 46,
+    "quark_ids": [
+      2,
+      13,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3753.241528955716,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 47,
+    "quark_ids": [
+      2,
+      13,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3208.1649710910056,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 48,
+    "quark_ids": [
+      2,
+      13,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 3319.479880527052,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 49,
+    "quark_ids": [
+      2,
+      13,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 4.0,
+    "mass": 2429.4820878715605,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 50,
+    "quark_ids": [
+      2,
+      13,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2805.546916716342,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 51,
+    "quark_ids": [
+      2,
+      15,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2712.782301898863,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 52,
+    "quark_ids": [
+      2,
+      15,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2507.7611298593924,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 53,
+    "quark_ids": [
+      2,
+      15,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2657.726268443409,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 54,
+    "quark_ids": [
+      2,
+      15,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2193.5589110208357,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 55,
+    "quark_ids": [
+      2,
+      15,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2929.8461221721914,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 56,
+    "quark_ids": [
+      2,
+      15,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3175.781994885575,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 57,
+    "quark_ids": [
+      2,
+      15,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2698.8400067539537,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 58,
+    "quark_ids": [
+      2,
+      15,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2796.2405525104946,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 59,
+    "quark_ids": [
+      2,
+      15,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2017.4924839369392,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 60,
+    "quark_ids": [
+      2,
+      15,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2346.549209176123,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 61,
+    "quark_ids": [
+      2,
+      18,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2904.7335464681555,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 62,
+    "quark_ids": [
+      2,
+      18,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2699.7123744286846,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 63,
+    "quark_ids": [
+      2,
+      18,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2849.677513012702,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 64,
+    "quark_ids": [
+      2,
+      18,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2385.5101555901283,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 65,
+    "quark_ids": [
+      2,
+      18,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 3121.7973667414844,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 66,
+    "quark_ids": [
+      2,
+      18,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3367.7332394548675,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 67,
+    "quark_ids": [
+      2,
+      18,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2890.791251323246,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 68,
+    "quark_ids": [
+      2,
+      18,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2988.191797079787,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 69,
+    "quark_ids": [
+      2,
+      18,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2209.4437285062313,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 70,
+    "quark_ids": [
+      2,
+      18,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2538.500453745415,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 71,
+    "quark_ids": [
+      2,
+      19,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 0.0,
+    "mass": 2955.9077540775843,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "neutral_baryon"
+  },
+  {
+    "hadron_id": 72,
+    "quark_ids": [
+      2,
+      19,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3143.8703794721305,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 73,
+    "quark_ids": [
+      2,
+      19,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 3315.2591092824355,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 74,
+    "quark_ids": [
+      2,
+      19,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 0.0,
+    "mass": 2436.684363199557,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "neutral_baryon"
+  },
+  {
+    "hadron_id": 75,
+    "quark_ids": [
+      2,
+      19,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 0.0,
+    "mass": 3172.9715743509137,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "neutral_baryon"
+  },
+  {
+    "hadron_id": 76,
+    "quark_ids": [
+      2,
+      19,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3907.3227966449113,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 77,
+    "quark_ids": [
+      2,
+      19,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 3362.2462387801997,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 78,
+    "quark_ids": [
+      2,
+      19,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3473.561148216247,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 79,
+    "quark_ids": [
+      2,
+      19,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2583.563355560755,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 80,
+    "quark_ids": [
+      2,
+      19,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2959.628184405537,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 81,
+    "quark_ids": [
+      2,
+      22,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2670.8093053455304,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 82,
+    "quark_ids": [
+      2,
+      22,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2465.7881333060595,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 83,
+    "quark_ids": [
+      2,
+      22,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2615.7532718900766,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 84,
+    "quark_ids": [
+      2,
+      22,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2151.5859144675032,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 85,
+    "quark_ids": [
+      2,
+      22,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 2887.8731256188594,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 86,
+    "quark_ids": [
+      2,
+      22,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 3133.808998332243,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 87,
+    "quark_ids": [
+      2,
+      22,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2656.867010200621,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 88,
+    "quark_ids": [
+      2,
+      22,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 2754.267555957162,
+    "spin": 1.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 89,
+    "quark_ids": [
+      2,
+      22,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 3.0,
+    "mass": 1975.519487383607,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 90,
+    "quark_ids": [
+      2,
+      22,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 2304.57621262279,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 91,
+    "quark_ids": [
+      2,
+      23,
+      1
+    ],
+    "is_color_neutral": true,
+    "charge": 0.0,
+    "mass": 3546.621587740683,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "neutral_baryon"
+  },
+  {
+    "hadron_id": 92,
+    "quark_ids": [
+      2,
+      23,
+      6
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3818.9719036585293,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 93,
+    "quark_ids": [
+      2,
+      23,
+      9
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 3990.3606334688334,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 94,
+    "quark_ids": [
+      2,
+      23,
+      11
+    ],
+    "is_color_neutral": true,
+    "charge": 0.0,
+    "mass": 3027.398196862656,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "neutral_baryon"
+  },
+  {
+    "hadron_id": 95,
+    "quark_ids": [
+      2,
+      23,
+      14
+    ],
+    "is_color_neutral": true,
+    "charge": 0.0,
+    "mass": 3763.685408014012,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "neutral_baryon"
+  },
+  {
+    "hadron_id": 96,
+    "quark_ids": [
+      2,
+      23,
+      16
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 4582.424320831309,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 97,
+    "quark_ids": [
+      2,
+      23,
+      20
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 4037.347762966599,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  },
+  {
+    "hadron_id": 98,
+    "quark_ids": [
+      2,
+      23,
+      25
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 4148.6626724026455,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 99,
+    "quark_ids": [
+      2,
+      23,
+      26
+    ],
+    "is_color_neutral": true,
+    "charge": 2.0,
+    "mass": 3258.6648797471535,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "exotic_baryon"
+  },
+  {
+    "hadron_id": 100,
+    "quark_ids": [
+      2,
+      23,
+      32
+    ],
+    "is_color_neutral": true,
+    "charge": 1.0,
+    "mass": 3634.7297085919354,
+    "spin": 0.5,
+    "stability": 1.0,
+    "type": "charged_baryon"
+  }
+]

@@ -98,6 +98,7 @@ text
     avg_strength = np.mean(non_zero_strengths) if len(non_zero_strengths) > 0 else 0.0
 Аналогично, в _calculate_avg_sync:
 
+
 text
     upper_tri = self.sync_matrix[np.triu_indices(self.size, k=1)]
     if len(upper_tri) > 0:

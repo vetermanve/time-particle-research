@@ -1,0 +1,847 @@
+[
+  {
+    "quark_id": 1,
+    "preon_ids": [
+      591,
+      179,
+      706
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.8790952525102528,
+    "mass": 13.705780508465146,
+    "effective_mass_mev": 1370.5780508465145
+  },
+  {
+    "quark_id": 2,
+    "preon_ids": [
+      729,
+      655,
+      924
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.8754598916762673,
+    "mass": 15.529485300027606,
+    "effective_mass_mev": 1552.9485300027607
+  },
+  {
+    "quark_id": 3,
+    "preon_ids": [
+      857,
+      820,
+      641
+    ],
+    "charge": 1.0,
+    "color": "G",
+    "sync_strength": 0.8723616884682359,
+    "mass": 15.89618606725372,
+    "effective_mass_mev": 1589.6186067253718
+  },
+  {
+    "quark_id": 4,
+    "preon_ids": [
+      775,
+      804,
+      883
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.872154472045738,
+    "mass": 28.456483073905723,
+    "effective_mass_mev": 2845.6483073905724
+  },
+  {
+    "quark_id": 5,
+    "preon_ids": [
+      825,
+      622,
+      829
+    ],
+    "charge": 1.0,
+    "color": "G",
+    "sync_strength": 0.8714170518036067,
+    "mass": 13.610328967106508,
+    "effective_mass_mev": 1361.0328967106507
+  },
+  {
+    "quark_id": 6,
+    "preon_ids": [
+      207,
+      897,
+      222
+    ],
+    "charge": 2.0,
+    "color": "B",
+    "sync_strength": 0.8706746208725229,
+    "mass": 10.776906622186996,
+    "effective_mass_mev": 1077.6906622186996
+  },
+  {
+    "quark_id": 7,
+    "preon_ids": [
+      765,
+      531,
+      0
+    ],
+    "charge": 0.0,
+    "color": "R",
+    "sync_strength": 0.8687371541182937,
+    "mass": 5.376240956870246,
+    "effective_mass_mev": 537.6240956870246
+  },
+  {
+    "quark_id": 8,
+    "preon_ids": [
+      972,
+      62,
+      935
+    ],
+    "charge": 2.0,
+    "color": "G",
+    "sync_strength": 0.8657989968380466,
+    "mass": 21.761678093743324,
+    "effective_mass_mev": 2176.1678093743326
+  },
+  {
+    "quark_id": 9,
+    "preon_ids": [
+      525,
+      466,
+      91
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8646325029478835,
+    "mass": 12.919265744815807,
+    "effective_mass_mev": 1291.9265744815807
+  },
+  {
+    "quark_id": 10,
+    "preon_ids": [
+      24,
+      625,
+      333
+    ],
+    "charge": 0.0,
+    "color": "R",
+    "sync_strength": 0.8617008080510159,
+    "mass": 6.919813958834706,
+    "effective_mass_mev": 691.9813958834707
+  },
+  {
+    "quark_id": 11,
+    "preon_ids": [
+      949,
+      450,
+      290
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.8608240582571843,
+    "mass": 6.288303495921901,
+    "effective_mass_mev": 628.83034959219
+  },
+  {
+    "quark_id": 12,
+    "preon_ids": [
+      394,
+      133,
+      600
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.8590063804667668,
+    "mass": 8.025271327940757,
+    "effective_mass_mev": 802.5271327940757
+  },
+  {
+    "quark_id": 13,
+    "preon_ids": [
+      725,
+      441,
+      53
+    ],
+    "charge": 1.0,
+    "color": "G",
+    "sync_strength": 0.8558058066825819,
+    "mass": 11.065971975072095,
+    "effective_mass_mev": 1106.5971975072096
+  },
+  {
+    "quark_id": 14,
+    "preon_ids": [
+      446,
+      640,
+      3
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.8545955340371768,
+    "mass": 16.806692226655557,
+    "effective_mass_mev": 1680.6692226655557
+  },
+  {
+    "quark_id": 15,
+    "preon_ids": [
+      49,
+      514,
+      712
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.8542834759317034,
+    "mass": 9.518767075776719,
+    "effective_mass_mev": 951.8767075776718
+  },
+  {
+    "quark_id": 16,
+    "preon_ids": [
+      752,
+      65,
+      447
+    ],
+    "charge": 2.0,
+    "color": "B",
+    "sync_strength": 0.8538805700257841,
+    "mass": 20.320061836846754,
+    "effective_mass_mev": 2032.0061836846755
+  },
+  {
+    "quark_id": 17,
+    "preon_ids": [
+      495,
+      278,
+      794
+    ],
+    "charge": -1.0,
+    "color": "R",
+    "sync_strength": 0.8537259561019281,
+    "mass": 3.895017370026679,
+    "effective_mass_mev": 389.5017370026679
+  },
+  {
+    "quark_id": 18,
+    "preon_ids": [
+      279,
+      351,
+      2
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.8536534949358247,
+    "mass": 12.260927712480898,
+    "effective_mass_mev": 1226.0927712480898
+  },
+  {
+    "quark_id": 19,
+    "preon_ids": [
+      938,
+      956,
+      392
+    ],
+    "charge": -1.0,
+    "color": "G",
+    "sync_strength": 0.8534722577196335,
+    "mass": 12.991987821187031,
+    "effective_mass_mev": 1299.198782118703
+  },
+  {
+    "quark_id": 20,
+    "preon_ids": [
+      360,
+      936,
+      31
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8521296662937119,
+    "mass": 13.50660486353787,
+    "effective_mass_mev": 1350.660486353787
+  },
+  {
+    "quark_id": 21,
+    "preon_ids": [
+      499,
+      627,
+      114
+    ],
+    "charge": 0.0,
+    "color": "R",
+    "sync_strength": 0.851561353415501,
+    "mass": 8.975656498908222,
+    "effective_mass_mev": 897.5656498908222
+  },
+  {
+    "quark_id": 22,
+    "preon_ids": [
+      558,
+      915,
+      543
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.8512390927068975,
+    "mass": 8.91915283930054,
+    "effective_mass_mev": 891.9152839300541
+  },
+  {
+    "quark_id": 23,
+    "preon_ids": [
+      28,
+      326,
+      97
+    ],
+    "charge": -1.0,
+    "color": "G",
+    "sync_strength": 0.8504606416004155,
+    "mass": 21.430756873517005,
+    "effective_mass_mev": 2143.0756873517007
+  },
+  {
+    "quark_id": 24,
+    "preon_ids": [
+      314,
+      714,
+      643
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.8491644552876307,
+    "mass": 3.2929735761399126,
+    "effective_mass_mev": 329.29735761399127
+  },
+  {
+    "quark_id": 25,
+    "preon_ids": [
+      518,
+      102,
+      713
+    ],
+    "charge": 2.0,
+    "color": "B",
+    "sync_strength": 0.8488002344203589,
+    "mass": 14.898041231488456,
+    "effective_mass_mev": 1489.8041231488455
+  },
+  {
+    "quark_id": 26,
+    "preon_ids": [
+      18,
+      842,
+      854
+    ],
+    "charge": 2.0,
+    "color": "B",
+    "sync_strength": 0.8482523742102591,
+    "mass": 3.773068823294805,
+    "effective_mass_mev": 377.3068823294805
+  },
+  {
+    "quark_id": 27,
+    "preon_ids": [
+      863,
+      244,
+      1
+    ],
+    "charge": 0.0,
+    "color": "R",
+    "sync_strength": 0.8477547083324816,
+    "mass": 22.426098223850705,
+    "effective_mass_mev": 2242.6098223850704
+  },
+  {
+    "quark_id": 28,
+    "preon_ids": [
+      465,
+      183,
+      894
+    ],
+    "charge": 1.0,
+    "color": "G",
+    "sync_strength": 0.8476914103604196,
+    "mass": 1.0,
+    "effective_mass_mev": 100.0
+  },
+  {
+    "quark_id": 29,
+    "preon_ids": [
+      301,
+      422,
+      160
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.8475149270042923,
+    "mass": 17.77226227171882,
+    "effective_mass_mev": 1777.2262271718819
+  },
+  {
+    "quark_id": 30,
+    "preon_ids": [
+      563,
+      576,
+      561
+    ],
+    "charge": 0.0,
+    "color": "R",
+    "sync_strength": 0.8454020867487212,
+    "mass": 17.95042553142253,
+    "effective_mass_mev": 1795.042553142253
+  },
+  {
+    "quark_id": 31,
+    "preon_ids": [
+      634,
+      259,
+      406
+    ],
+    "charge": -1.0,
+    "color": "R",
+    "sync_strength": 0.8450049622962045,
+    "mass": 2.287011785505859,
+    "effective_mass_mev": 228.70117855058592
+  },
+  {
+    "quark_id": 32,
+    "preon_ids": [
+      760,
+      564,
+      607
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8445337778484264,
+    "mass": 8.473879183854574,
+    "effective_mass_mev": 847.3879183854574
+  },
+  {
+    "quark_id": 33,
+    "preon_ids": [
+      291,
+      327,
+      19
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.843943654815647,
+    "mass": 7.852242626788586,
+    "effective_mass_mev": 785.2242626788586
+  },
+  {
+    "quark_id": 34,
+    "preon_ids": [
+      996,
+      431,
+      135
+    ],
+    "charge": -1.0,
+    "color": "G",
+    "sync_strength": 0.8431065048370733,
+    "mass": 6.072354072276136,
+    "effective_mass_mev": 607.2354072276136
+  },
+  {
+    "quark_id": 35,
+    "preon_ids": [
+      720,
+      681,
+      601
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.8415356601790925,
+    "mass": 15.49738608777428,
+    "effective_mass_mev": 1549.738608777428
+  },
+  {
+    "quark_id": 36,
+    "preon_ids": [
+      989,
+      249,
+      81
+    ],
+    "charge": -1.0,
+    "color": "B",
+    "sync_strength": 0.8413332340694074,
+    "mass": 11.395117879424399,
+    "effective_mass_mev": 1139.51178794244
+  },
+  {
+    "quark_id": 37,
+    "preon_ids": [
+      941,
+      295,
+      512
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.8404947252897764,
+    "mass": 9.540366900826793,
+    "effective_mass_mev": 954.0366900826793
+  },
+  {
+    "quark_id": 38,
+    "preon_ids": [
+      809,
+      281,
+      87
+    ],
+    "charge": -1.0,
+    "color": "B",
+    "sync_strength": 0.8402113983400641,
+    "mass": 5.576678482113344,
+    "effective_mass_mev": 557.6678482113344
+  },
+  {
+    "quark_id": 39,
+    "preon_ids": [
+      457,
+      964,
+      377
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.8401246539230444,
+    "mass": 16.752377166891534,
+    "effective_mass_mev": 1675.2377166891533
+  },
+  {
+    "quark_id": 40,
+    "preon_ids": [
+      899,
+      994,
+      346
+    ],
+    "charge": 2.0,
+    "color": "B",
+    "sync_strength": 0.8397699323451784,
+    "mass": 9.496763481124244,
+    "effective_mass_mev": 949.6763481124244
+  },
+  {
+    "quark_id": 41,
+    "preon_ids": [
+      973,
+      583,
+      309
+    ],
+    "charge": 2.0,
+    "color": "G",
+    "sync_strength": 0.8389032831476123,
+    "mass": 18.127301058839414,
+    "effective_mass_mev": 1812.7301058839414
+  },
+  {
+    "quark_id": 42,
+    "preon_ids": [
+      182,
+      302,
+      338
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.8386465499924051,
+    "mass": 24.083133482103737,
+    "effective_mass_mev": 2408.3133482103735
+  },
+  {
+    "quark_id": 43,
+    "preon_ids": [
+      982,
+      258,
+      764
+    ],
+    "charge": -1.0,
+    "color": "B",
+    "sync_strength": 0.836977051265547,
+    "mass": 19.679505726448244,
+    "effective_mass_mev": 1967.9505726448244
+  },
+  {
+    "quark_id": 44,
+    "preon_ids": [
+      231,
+      129,
+      469
+    ],
+    "charge": 2.0,
+    "color": "R",
+    "sync_strength": 0.8366746081797477,
+    "mass": 16.855891496157994,
+    "effective_mass_mev": 1685.5891496157994
+  },
+  {
+    "quark_id": 45,
+    "preon_ids": [
+      617,
+      986,
+      547
+    ],
+    "charge": 2.0,
+    "color": "B",
+    "sync_strength": 0.8360278390523477,
+    "mass": 22.9933622880058,
+    "effective_mass_mev": 2299.33622880058
+  },
+  {
+    "quark_id": 46,
+    "preon_ids": [
+      912,
+      801,
+      560
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.8359412048035928,
+    "mass": 11.084665148233096,
+    "effective_mass_mev": 1108.4665148233096
+  },
+  {
+    "quark_id": 47,
+    "preon_ids": [
+      931,
+      736,
+      395
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8356673232412034,
+    "mass": 11.540388118981554,
+    "effective_mass_mev": 1154.0388118981555
+  },
+  {
+    "quark_id": 48,
+    "preon_ids": [
+      82,
+      544,
+      44
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8354316265988792,
+    "mass": 15.617495816698955,
+    "effective_mass_mev": 1561.7495816698956
+  },
+  {
+    "quark_id": 49,
+    "preon_ids": [
+      721,
+      970,
+      719
+    ],
+    "charge": 1.0,
+    "color": "G",
+    "sync_strength": 0.8344856533694367,
+    "mass": 14.384383271749108,
+    "effective_mass_mev": 1438.438327174911
+  },
+  {
+    "quark_id": 50,
+    "preon_ids": [
+      460,
+      288,
+      414
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8341316285812347,
+    "mass": 10.811491578021446,
+    "effective_mass_mev": 1081.1491578021446
+  },
+  {
+    "quark_id": 51,
+    "preon_ids": [
+      538,
+      459,
+      58
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8340750328581111,
+    "mass": 17.365304486629288,
+    "effective_mass_mev": 1736.5304486629288
+  },
+  {
+    "quark_id": 52,
+    "preon_ids": [
+      921,
+      920,
+      445
+    ],
+    "charge": 1.0,
+    "color": "G",
+    "sync_strength": 0.8340066312403752,
+    "mass": 2.0557945557163793,
+    "effective_mass_mev": 205.57945557163794
+  },
+  {
+    "quark_id": 53,
+    "preon_ids": [
+      319,
+      214,
+      654
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.83381587868237,
+    "mass": 17.71138787379101,
+    "effective_mass_mev": 1771.1387873791011
+  },
+  {
+    "quark_id": 54,
+    "preon_ids": [
+      784,
+      701,
+      642
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.8328596669605529,
+    "mass": 7.357181873685943,
+    "effective_mass_mev": 735.7181873685943
+  },
+  {
+    "quark_id": 55,
+    "preon_ids": [
+      247,
+      585,
+      939
+    ],
+    "charge": 1.0,
+    "color": "G",
+    "sync_strength": 0.832401215042826,
+    "mass": 7.254512259202124,
+    "effective_mass_mev": 725.4512259202124
+  },
+  {
+    "quark_id": 56,
+    "preon_ids": [
+      786,
+      30,
+      602
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8323810334857366,
+    "mass": 20.524425318558674,
+    "effective_mass_mev": 2052.4425318558674
+  },
+  {
+    "quark_id": 57,
+    "preon_ids": [
+      280,
+      396,
+      614
+    ],
+    "charge": 0.0,
+    "color": "R",
+    "sync_strength": 0.8322990504382298,
+    "mass": 1.0,
+    "effective_mass_mev": 100.0
+  },
+  {
+    "quark_id": 58,
+    "preon_ids": [
+      37,
+      527,
+      619
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.8314715729920966,
+    "mass": 17.239521387585157,
+    "effective_mass_mev": 1723.9521387585157
+  },
+  {
+    "quark_id": 59,
+    "preon_ids": [
+      7,
+      739,
+      162
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.8309320158929205,
+    "mass": 6.392052727636139,
+    "effective_mass_mev": 639.205272763614
+  },
+  {
+    "quark_id": 60,
+    "preon_ids": [
+      834,
+      937,
+      132
+    ],
+    "charge": 1.0,
+    "color": "R",
+    "sync_strength": 0.8308817322081836,
+    "mass": 19.476786851609358,
+    "effective_mass_mev": 1947.6786851609359
+  },
+  {
+    "quark_id": 61,
+    "preon_ids": [
+      604,
+      224,
+      212
+    ],
+    "charge": 0.0,
+    "color": "R",
+    "sync_strength": 0.8305716465542589,
+    "mass": 11.53267882244974,
+    "effective_mass_mev": 1153.2678822449739
+  },
+  {
+    "quark_id": 62,
+    "preon_ids": [
+      436,
+      10,
+      781
+    ],
+    "charge": 0.0,
+    "color": "G",
+    "sync_strength": 0.829925359333792,
+    "mass": 14.962165236451277,
+    "effective_mass_mev": 1496.2165236451276
+  },
+  {
+    "quark_id": 63,
+    "preon_ids": [
+      523,
+      50,
+      540
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.8294758250838435,
+    "mass": 17.4792899353749,
+    "effective_mass_mev": 1747.92899353749
+  },
+  {
+    "quark_id": 64,
+    "preon_ids": [
+      342,
+      943,
+      366
+    ],
+    "charge": 1.0,
+    "color": "B",
+    "sync_strength": 0.8292209192280732,
+    "mass": 8.243247986227678,
+    "effective_mass_mev": 824.3247986227677
+  },
+  {
+    "quark_id": 65,
+    "preon_ids": [
+      737,
+      220,
+      254
+    ],
+    "charge": 0.0,
+    "color": "B",
+    "sync_strength": 0.8287616928981354,
+    "mass": 6.2074590063627255,
+    "effective_mass_mev": 620.7459006362726
+  }
+]

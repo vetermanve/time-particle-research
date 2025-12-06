@@ -1,0 +1,21 @@
+{
+  "experiment": 30,
+  "version": "30.4",
+  "timestamp": "20251206_003521",
+  "parameters": {
+    "num_preons": 1000,
+    "code_dim": 5,
+    "max_pairs_check": 50000,
+    "min_sync_strength": 0.25,
+    "mass_scale": 10.0
+  },
+  "results": {
+    "total_preons": 1000,
+    "quarks_found": 65,
+    "valid_hadrons": 100,
+    "protons": 0,
+    "neutrons": 0,
+    "other_baryons": 100,
+    "execution_time": 0
+  }
+}
